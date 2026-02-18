@@ -8,35 +8,35 @@
 
 @layer base {
   :root {
-    /* Core palette — dark premium streetwear */
-    --background: 0 0% 4%;
+    /* Core palette — dark navy premium streetwear */
+    --background: 222 47% 7%;
     --foreground: 0 0% 95%;
 
-    --card: 0 0% 7%;
+    --card: 222 44% 10%;
     --card-foreground: 0 0% 95%;
 
-    --popover: 0 0% 7%;
+    --popover: 222 44% 10%;
     --popover-foreground: 0 0% 95%;
 
     /* Gold — primary CTA color */
     --primary: 43 72% 52%;
-    --primary-foreground: 0 0% 4%;
+    --primary-foreground: 222 47% 7%;
 
-    /* Dark surface */
-    --secondary: 0 0% 10%;
+    /* Dark navy surface */
+    --secondary: 222 40% 13%;
     --secondary-foreground: 0 0% 95%;
 
-    --muted: 0 0% 12%;
-    --muted-foreground: 0 0% 55%;
+    --muted: 222 38% 15%;
+    --muted-foreground: 220 15% 55%;
 
     --accent: 43 72% 52%;
-    --accent-foreground: 0 0% 4%;
+    --accent-foreground: 222 47% 7%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 95%;
 
-    --border: 0 0% 15%;
-    --input: 0 0% 15%;
+    --border: 222 35% 18%;
+    --input: 222 35% 18%;
     --ring: 43 72% 52%;
 
     --radius: 0rem;
@@ -44,15 +44,15 @@
     /* Custom brand tokens */
     --gold: 43 72% 52%;
     --gold-dim: 43 50% 38%;
-    --surface: 0 0% 7%;
-    --surface-raised: 0 0% 10%;
-    --sidebar-background: 0 0% 4%;
+    --surface: 222 44% 10%;
+    --surface-raised: 222 40% 13%;
+    --sidebar-background: 222 47% 7%;
     --sidebar-foreground: 0 0% 95%;
     --sidebar-primary: 43 72% 52%;
-    --sidebar-primary-foreground: 0 0% 4%;
-    --sidebar-accent: 0 0% 10%;
+    --sidebar-primary-foreground: 222 47% 7%;
+    --sidebar-accent: 222 40% 13%;
     --sidebar-accent-foreground: 0 0% 95%;
-    --sidebar-border: 0 0% 15%;
+    --sidebar-border: 222 35% 18%;
     --sidebar-ring: 43 72% 52%;
 
     /* Gradients */

@@ -43,9 +43,9 @@ const Hero = () => {
             href="https://certifiedrichnarrative.com.au/collections/all"
             target="_blank"
             rel="noreferrer"
-            className="gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:opacity-90 transition-all shadow-gold"
+          className="gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:opacity-90 transition-all shadow-gold"
           >
-            Shop NC001
+            Secure Yours
           </a>
           <a
             href="#story"

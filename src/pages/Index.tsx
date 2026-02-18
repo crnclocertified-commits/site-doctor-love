@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import ProductGrid from "@/components/ProductGrid";
 import BrandStory from "@/components/BrandStory";
+import FounderStatement from "@/components/FounderStatement";
 import SocialProof from "@/components/SocialProof";
 import Newsletter from "@/components/Newsletter";
 import Footer from "@/components/Footer";
@@ -16,6 +17,7 @@ const Index = () => {
         <Hero />
         <ProductGrid />
         <BrandStory />
+        <FounderStatement />
         <SocialProof />
         <Newsletter />
       </main>

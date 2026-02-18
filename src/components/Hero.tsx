@@ -16,9 +16,13 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
         {/* Badge */}
-        <span className="inline-block mb-6 px-4 py-1 border border-gold text-gold text-xs tracking-[0.3em] uppercase font-semibold">
-          Narrative Chapter 001
-        </span>
+        <div className="flex items-center gap-3 mb-6">
+          <div className="h-px w-8 bg-gold opacity-60" />
+          <span className="gradient-gold text-primary-foreground text-[10px] tracking-[0.35em] uppercase font-bold px-5 py-2 shadow-gold">
+            Chapter 001 — Limited Run
+          </span>
+          <div className="h-px w-8 bg-gold opacity-60" />
+        </div>
 
         {/* Headline */}
         <h1 className="font-display text-6xl sm:text-8xl md:text-[10rem] leading-none text-foreground mb-4">
@@ -39,9 +43,9 @@ const Hero = () => {
             href="https://certifiedrichnarrative.com.au/collections/all"
             target="_blank"
             rel="noreferrer"
-            className="gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:opacity-90 transition-all shadow-gold"
+          className="gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:opacity-90 transition-all shadow-gold"
           >
-            Shop NC001
+            Secure Yours
           </a>
           <a
             href="#story"

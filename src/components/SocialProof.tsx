@@ -26,8 +26,8 @@ const SocialProof = () => {
             },
             {
               icon: "◎",
-              title: "Branded Packaging",
-              body: "Every order ships in full CRN packaging. The unboxing is part of the experience — built for the 'gram.",
+              title: "NC002 — Full Brand Experience",
+              body: "The next chapter ships in full CRN branded packaging. Join the waitlist and be first when NC002 drops.",
             },
           ].map((p, i) => (
             <div key={i} className="surface p-8 border border-border hover:border-gold transition-colors">

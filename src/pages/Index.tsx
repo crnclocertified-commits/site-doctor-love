@@ -17,6 +17,7 @@ const Index = () => {
         <Hero />
         <ProductGrid />
         <BrandStory />
+        <FounderStatement />
         <SocialProof />
         <Newsletter />
       </main>

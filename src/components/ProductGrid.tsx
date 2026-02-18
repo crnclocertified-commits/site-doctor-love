@@ -2,7 +2,9 @@ const products = [
   {
     id: 1,
     name: "NC001 — Built Without Guidance.",
+    manifesto: "For those who figured it out alone.",
     price: "$69.00 AUD",
+    priceLabel: "Chapter 001 Pricing",
     tag: "T-Shirt",
     image: "https://certifiedrichnarrative.com.au/cdn/shop/files/unisex-premium-t-shirt-navy-front-69648f7fb878c.jpg?v=1768198062&width=800",
     hoverImage: "https://certifiedrichnarrative.com.au/cdn/shop/files/unisex-premium-t-shirt-navy-back-69648f7fba20c.jpg?v=1768198062&width=800",
@@ -10,8 +12,10 @@ const products = [
   },
   {
     id: 2,
-    name: "NC001.2 — Purpose Over Pressure",
+    name: "NC001.2 — Purpose Over Pressure.",
+    manifesto: "Stay the course. The pressure isn't real.",
     price: "$49.00 AUD",
+    priceLabel: "Chapter 001 Pricing",
     tag: "Dad Hat",
     image: "https://certifiedrichnarrative.com.au/cdn/shop/files/classic-dad-hat-black-right-front-68e0b82adbb66.png?v=1768537478&width=800",
     hoverImage: "https://certifiedrichnarrative.com.au/cdn/shop/files/classic-dad-hat-navy-left-front-68e0b82adc0c4.png?v=1768537478&width=800",
@@ -20,7 +24,9 @@ const products = [
   {
     id: 3,
     name: "NC001.3 — Earned, Never Given.",
+    manifesto: "Carry what you worked for.",
     price: "$129.00 AUD",
+    priceLabel: "Chapter 001 Pricing",
     tag: "Duffle Bag",
     image: "https://certifiedrichnarrative.com.au/cdn/shop/files/all-over-print-duffle-bag-white-left-front-68e0b8dcada8e.png?v=1768539960&width=800",
     hoverImage: "https://certifiedrichnarrative.com.au/cdn/shop/files/all-over-print-duffle-bag-white-top-68e0b8dcacdd9.png?v=1768539960&width=800",
@@ -28,8 +34,10 @@ const products = [
   },
   {
     id: 4,
-    name: "NC001.4 — The Armour",
+    name: "NC001.4 — The Armour.",
+    manifesto: "Wear what you built.",
     price: "$159.00 AUD",
+    priceLabel: "Chapter 001 Pricing",
     tag: "Hoodie",
     image: "https://certifiedrichnarrative.com.au/cdn/shop/files/unisex-essential-eco-hoodie-french-navy-front-68d8cff210f7b.png?v=1768543455&width=800",
     hoverImage: "https://certifiedrichnarrative.com.au/cdn/shop/files/unisex-essential-eco-hoodie-french-navy-back-68d8cff2114ef.png?v=1768543455&width=800",
@@ -37,8 +45,10 @@ const products = [
   },
   {
     id: 5,
-    name: "NC001.5 — Discipline in Motion",
+    name: "NC001.5 — Discipline in Motion.",
+    manifesto: "Built for the ones who never stopped moving.",
     price: "$139.00 AUD",
+    priceLabel: "Chapter 001 Pricing",
     tag: "Sweatpants",
     image: "https://certifiedrichnarrative.com.au/cdn/shop/files/unisex-heavyweight-sweatpants-navy-front-6969e83eb1542.jpg?v=1768550305&width=800",
     hoverImage: "https://certifiedrichnarrative.com.au/cdn/shop/files/unisex-heavyweight-sweatpants-navy-back-6969e83eb0d59.jpg?v=1768550305&width=800",
@@ -82,7 +92,11 @@ const ProductCard = ({ product }: { product: typeof products[0] }) => {
       {/* Info */}
       <div className="p-4">
         <h3 className="text-sm font-semibold text-foreground tracking-wide leading-tight mb-1">{product.name}</h3>
-        <p className="text-gold text-sm font-medium">{product.price}</p>
+        <p className="text-muted-foreground text-xs italic leading-snug mb-2">{product.manifesto}</p>
+        <div className="flex items-baseline gap-2">
+          <p className="text-gold text-sm font-medium">{product.price}</p>
+          <span className="text-muted-foreground text-[9px] tracking-[0.15em] uppercase">{product.priceLabel}</span>
+        </div>
       </div>
     </a>
   );

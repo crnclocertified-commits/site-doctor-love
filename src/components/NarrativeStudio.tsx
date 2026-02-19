@@ -93,10 +93,10 @@ const NarrativeStudio = () => {
 
                 <div className="space-y-4 text-muted-foreground text-sm leading-relaxed mb-8">
                   <p>
-                    A private community for the people building alongside us. Not a group chat — a table where knowledge is shared, growth is documented, and the standard is held.
+                    Not a group chat. A private table for those building in the same direction — where real knowledge gets shared, growth is held accountable, and the standard stays high.
                   </p>
                   <p>
-                    Founder learning materials. Business IQ. The real conversations.
+                    Founder learning materials. Raw business IQ. The conversations that actually move people forward.
                   </p>
                 </div>
 

@@ -17,7 +17,7 @@ const BrandStory = () => {
 
         {/* Text */}
         <div>
-          <p className="text-gold text-xs tracking-[0.3em] uppercase mb-4">The Becoming</p>
+          <p className="text-gold text-xs tracking-[0.3em] uppercase mb-4">Built Without Guidance — NC001</p>
           <h2 className="font-display text-5xl md:text-7xl text-foreground leading-none mb-8">
             No Blueprint.<br />No Mentor.<br />
             <span className="text-3xl md:text-4xl text-gold">No Permission Needed.</span>

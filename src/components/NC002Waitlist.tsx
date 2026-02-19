@@ -50,8 +50,8 @@ const NC002Waitlist = () => {
           </div>
 
           <h2 className="font-display text-5xl md:text-7xl text-foreground leading-none mb-4">
-            Chapter<br />
-            <span className="text-gold">002</span>
+            The Next<br />
+            <span className="text-gold">Chapter.</span>
           </h2>
 
           <p className="text-muted-foreground text-sm tracking-[0.15em] uppercase mb-4">
@@ -59,7 +59,7 @@ const NC002Waitlist = () => {
           </p>
 
           <p className="text-muted-foreground text-sm leading-relaxed max-w-md mx-auto mb-10">
-            NC001 proved the foundation. NC002 is being built with intention — custom packaging, a branded experience, and a community that earned their place first. No restocks. No second chances. This is what it means to be early.
+            NC001 was the proof. NC002 is the evolution — full branded packaging, a deeper product experience, and a community who earned their spot by moving first. No restocks. No late arrivals. First access only.
           </p>
 
           {submitted ? (

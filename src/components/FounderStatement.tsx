@@ -13,9 +13,9 @@ const FounderStatement = () => {
             <div
               className="aspect-[3/4] bg-cover bg-center bg-no-repeat"
               style={{
-                backgroundImage: `url(https://certifiedrichnarrative.com.au/cdn/shop/files/IMG_0420.jpg?v=1770938911&width=1200)`,
-              }}
-            />
+                backgroundImage: `url(https://certifiedrichnarrative.com.au/cdn/shop/files/IMG_0420.jpg?v=1770938911&width=1200)`
+              }} />
+
             {/* Corner accents */}
             <div className="absolute -bottom-4 -left-4 w-20 h-20 border border-gold opacity-40" />
             <div className="absolute -top-4 -right-4 w-10 h-10 border border-gold opacity-20" />
@@ -27,32 +27,32 @@ const FounderStatement = () => {
             <div className="font-display text-8xl text-gold leading-none mb-0 -mb-4 opacity-60 select-none">"</div>
 
             <blockquote className="font-display text-3xl md:text-4xl text-foreground leading-tight mb-8">
-              Somewhere there's a kid with no blueprint. This is for them.
+              ​If there's no roadmap we become the architects          
             </blockquote>
 
             <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
               <p>
-                No mentor. No roadmap. No inheritance. Just the conviction that if I kept showing up — every day, before anyone was watching — something real would come from it.
+                There was no mentor. No roadmap. No safety net. Just the belief that if I kept showing up — every day, without applause — something real would come from it.
               </p>
               <p>
-                CRNCLO exists to pass down what we learn — step by step, no gatekeeping. Built in real time. No filters, no shortcuts.
+                NC001 isn't a fashion brand. It's a record. A certified record of what gets built when you refuse to wait for permission.
               </p>
               <p className="text-foreground font-medium">
-                Worn by the self-taught.
+                If you found your own way — this is for you.
               </p>
             </div>
 
             {/* Signature */}
             <div className="mt-10 pt-8 border-t border-border">
-              <p className="font-display text-2xl text-gold">Jima Dau</p>
+              <p className="font-display text-2xl text-gold">CRN Founder</p>
               <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase mt-1">Certified Rich Narrative</p>
             </div>
           </div>
 
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default FounderStatement;

@@ -26,10 +26,10 @@ const Hero = () => {
 
         {/* Headline */}
         <h1 className="font-display text-6xl sm:text-8xl md:text-[10rem] leading-none text-foreground mb-4">
-          I'm Not Asleep
+          The Uniform For
         </h1>
         <h1 className="font-display text-6xl sm:text-8xl md:text-[10rem] leading-none text-gold mb-8">
-          Anymore.
+          The Self-Made.
         </h1>
 
         {/* Sub */}

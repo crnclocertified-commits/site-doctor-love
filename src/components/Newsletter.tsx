@@ -19,41 +19,41 @@ const Newsletter = () => {
       </div>
 
       <div className="relative z-10 max-w-2xl mx-auto px-6 text-center">
-        <p className="text-gold text-xs tracking-[0.3em] uppercase mb-4">Stay Close</p>
+        <p className="text-gold text-xs tracking-[0.3em] uppercase mb-4">Stay in the loop</p>
         <h2 className="font-display text-5xl md:text-7xl text-foreground mb-4">
-          Write With Us.
+          ​Join the Narrative     
         </h2>
         <p className="text-muted-foreground text-sm leading-relaxed mb-10 max-w-md mx-auto">
-          New chapters. New drops. Founder updates straight from the build. No filler — only what moves the story forward.
+          Be first to hear about new chapters, drops, and exclusive releases. No noise — only what matters.
         </p>
 
-        {submitted ? (
-          <div className="border border-gold text-gold text-sm tracking-[0.1em] py-4 px-8 inline-block">
-            ✓ You're in. The next chapter finds you first.
-          </div>
-        ) : (
-          <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-0 max-w-lg mx-auto">
+        {submitted ?
+        <div className="border border-gold text-gold text-sm tracking-[0.1em] py-4 px-8 inline-block">
+            ✓ You're in. Welcome to the narrative.
+          </div> :
+
+        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-0 max-w-lg mx-auto">
             <input
-              type="email"
-              required
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="Your email address"
-              className="flex-1 bg-muted border border-border text-foreground placeholder:text-muted-foreground text-sm px-6 py-4 outline-none focus:border-gold transition-colors"
-            />
+            type="email"
+            required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Your email address"
+            className="flex-1 bg-muted border border-border text-foreground placeholder:text-muted-foreground text-sm px-6 py-4 outline-none focus:border-gold transition-colors" />
+
             <button
-              type="submit"
-              className="gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-8 py-4 hover:opacity-90 transition-all whitespace-nowrap"
-            >
-              Stay In It
+            type="submit"
+            className="gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-8 py-4 hover:opacity-90 transition-all whitespace-nowrap">
+
+              Join Now
             </button>
           </form>
-        )}
+        }
 
-        <p className="text-muted-foreground text-xs mt-4 tracking-wide">No spam. One standard.</p>
+        <p className="text-muted-foreground text-xs mt-4 tracking-wide">No spam. Unsubscribe anytime.</p>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Newsletter;

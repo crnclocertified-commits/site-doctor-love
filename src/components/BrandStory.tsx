@@ -7,7 +7,7 @@ const BrandStory = () => {
           <div
             className="aspect-[4/5] bg-cover bg-center bg-no-repeat"
             style={{
-              backgroundImage: "url(\"/lovable-uploads/c48e735e-2f96-479c-a395-aa22d370b0d3.jpg\")"
+              backgroundImage: "url(\"/lovable-uploads/96305eeb-bfbe-4422-b9ff-53497a7cabf4.jpg\")"
             }} />
 
           {/* Gold accent line */}

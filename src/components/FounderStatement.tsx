@@ -27,18 +27,18 @@ const FounderStatement = () => {
             <div className="font-display text-8xl text-gold leading-none mb-0 -mb-4 opacity-60 select-none">"</div>
 
             <blockquote className="font-display text-3xl md:text-4xl text-foreground leading-tight mb-8">
-              I built this because no one handed me anything.
+              Nobody handed me this. I built it in the dark.
             </blockquote>
 
             <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
               <p>
-                There was no mentor. No roadmap. No safety net. Just the belief that if I kept showing up — every day, without applause — something real would come from it.
+                No mentor. No roadmap. No inheritance. Just the conviction that if I kept showing up — every day, before anyone was watching — something real would come from it.
               </p>
               <p>
-                NC001 isn't a fashion brand. It's a record. A certified record of what gets built when you refuse to wait for permission.
+                I didn't start CRNCLO because I had it figured out. I started it because I was still in the middle of figuring it out — and I knew I wasn't the only one.
               </p>
               <p className="text-foreground font-medium">
-                If you found your own way — this is for you.
+                NC001 is for every person who found their own way when no one else was pointing.
               </p>
             </div>
 

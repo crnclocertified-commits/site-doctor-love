@@ -41,9 +41,9 @@ const SocialProof = () => {
         {/* Founding stats */}
         <div className="mt-20 grid grid-cols-3 gap-6 border-t border-border pt-16">
           {[
-            { value: "NC001", label: "First Chapter" },
-            { value: "AU", label: "Made for Australia" },
-            { value: "001", label: "Limited Drop" },
+          { value: "NC001", label: "Founding Chapter — Active" },
+            { value: "AU", label: "Born in Australia" },
+            { value: "No Restocks", label: "Chapter 001 closes when it's gone" },
           ].map((s, i) => (
             <div key={i} className="text-center">
               <p className="font-display text-5xl md:text-6xl text-gold">{s.value}</p>
@@ -60,7 +60,7 @@ const SocialProof = () => {
             rel="noreferrer"
             className="inline-block gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-12 py-4 hover:opacity-90 transition-all shadow-gold"
           >
-            Secure Your Founding Piece
+            Claim Your Founding Piece
           </a>
         </div>
       </div>

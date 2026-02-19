@@ -7,7 +7,7 @@ const Footer = () => {
           <div className="col-span-2 md:col-span-1">
             <h3 className="font-display text-2xl text-foreground tracking-widest mb-4">CRN</h3>
             <p className="text-muted-foreground text-xs leading-relaxed max-w-xs">
-              Certified Rich Narrative — Clothing for those who built without a blueprint.
+              Certified Rich Narrative — The uniform for those who built their story without a blueprint, a mentor, or permission.
             </p>
           </div>
 
@@ -74,7 +74,7 @@ const Footer = () => {
             © {new Date().getFullYear()} Certified Rich Narrative. All rights reserved.
           </p>
           <p className="text-muted-foreground text-xs tracking-wide">
-            Built Without Guidance. — Australia
+            No Blueprint. No Excuses. One Standard. — Australia
           </p>
         </div>
       </div>

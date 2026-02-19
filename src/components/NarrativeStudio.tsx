@@ -23,7 +23,7 @@ const NarrativeStudio = () => {
           <div>
             <div className="inline-flex items-center gap-3 mb-6">
               <div className="h-px w-10 bg-gold opacity-60" />
-              <span className="text-gold text-xs tracking-[0.35em] uppercase">Content Engine</span>
+              <span className="text-gold text-xs tracking-[0.35em] uppercase">The Build, Documented</span>
               <div className="h-px w-10 bg-gold opacity-60" />
             </div>
 
@@ -33,18 +33,18 @@ const NarrativeStudio = () => {
             </h2>
 
             <p className="text-muted-foreground text-sm tracking-[0.15em] uppercase mb-6">
-              We document the build. In real time. No filters.
+              Real time. No filter. No blueprint.
             </p>
 
             <div className="space-y-4 text-muted-foreground text-sm leading-relaxed mb-8">
               <p>
-                CRNCLO isn't built behind closed doors. Every lesson learned, every product decision, every failure and win — it's documented on TikTok and YouTube as it happens.
+                We don't build this behind closed doors. Every decision, every lesson, every failure and win is documented on TikTok and YouTube — as it happens, before it's polished.
               </p>
               <p>
-                Because <span className="text-foreground font-medium">contribution is legacy</span>. What we learn building this brand is meant to serve the next person who was orphaned by the system and is ready to write their own story.
+                Because <span className="text-foreground font-medium">contribution is legacy</span>. What we learn building CRNCLO belongs to every person who's building without a roadmap — and watching to know they're not alone.
               </p>
               <p className="text-foreground font-medium">
-                No shortcuts. No filters. Just the story — as it unfolds.
+                This isn't content. It's accountability. Follow the build.
               </p>
             </div>
 

@@ -19,18 +19,18 @@ const BrandStory = () => {
         <div>
           <p className="text-gold text-xs tracking-[0.3em] uppercase mb-4">The Becoming</p>
           <h2 className="font-display text-5xl md:text-7xl text-foreground leading-none mb-8">
-            Orphaned<br />By The World.<br />
-            <span className="text-3xl md:text-4xl text-gold">We Reclaim The Narrative.</span>
+            No Blueprint.<br />No Mentor.<br />
+            <span className="text-3xl md:text-4xl text-gold">No Permission Needed.</span>
           </h2>
           <div className="space-y-5 text-muted-foreground text-sm leading-relaxed">
             <p>
-              Some of us were never handed a blueprint. No mentor pulling us aside, no safety net, no permission slip. Just instinct, resilience, and the refusal to accept a story someone else wrote for us.
+              Some of us were never handed a roadmap. No one pulled us aside. No safety net. No inherited advantage. Just raw instinct, daily discipline, and the refusal to let someone else's story become ours.
             </p>
             <p>
-              NC001 — The Becoming — is the first chapter. It's for the person who isn't where they want to be yet, but is no longer asleep. Aware of their story. Actively rewriting it.
+              NC001 — The Becoming — is for the person still in the building phase. Still learning. Still breaking old patterns. Awake to who they're becoming, but not finished writing the chapter yet.
             </p>
             <p className="text-foreground font-medium">
-              This isn't clothing. It's a certified record of everything you chose to build without guidance.
+              This isn't clothing. It's a certified record of everything you chose to build when nobody was watching.
             </p>
           </div>
 

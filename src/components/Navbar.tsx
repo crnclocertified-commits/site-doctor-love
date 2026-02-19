@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50" style={{ top: "36px" }}>
-      <nav className="bg-background/95 backdrop-blur-md border-b border-border px-6 md:px-12 py-2 flex items-center justify-between">
+      <nav className="bg-background/95 backdrop-blur-md border-b border-border px-6 md:px-12 py-1 flex items-center justify-between overflow-visible">
         {/* Left nav */}
         <div className="hidden md:flex items-center gap-8">
           <a href="#shop" className="text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors">Shop</a>

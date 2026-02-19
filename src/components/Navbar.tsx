@@ -1,6 +1,6 @@
 import { ShoppingBag, Search, Menu, X } from "lucide-react";
 import { useState } from "react";
-import crncloLogo from "@/assets/crnclo-logo-transparent.png";
+import crncloLogo from "@/assets/crnclo-logo.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);

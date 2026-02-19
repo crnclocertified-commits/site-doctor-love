@@ -27,18 +27,15 @@ const FounderStatement = () => {
             <div className="font-display text-8xl text-gold leading-none mb-0 -mb-4 opacity-60 select-none">"</div>
 
             <blockquote className="font-display text-3xl md:text-4xl text-foreground leading-tight mb-8">
-              Nobody handed me this. I built it in the dark.
+              Somewhere there's a kid with no blueprint. This is for them.
             </blockquote>
 
             <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
               <p>
-                No mentor. No roadmap. No inheritance. Just the conviction that if I kept showing up — every day, before anyone was watching — something real would come from it.
-              </p>
-              <p>
-                I didn't start CRNCLO because I had it figured out. I started it because I was still in the middle of figuring it out — and I knew I wasn't the only one.
+                CRNCLO exists to pass down what we learn — step by step, no gatekeeping. Built in real time. No filters, no shortcuts.
               </p>
               <p className="text-foreground font-medium">
-                NC001 is for every person who found their own way when no one else was pointing.
+                Worn by the self-taught.
               </p>
             </div>
 

@@ -1,5 +1,6 @@
 import { ShoppingBag, Search, Menu, X } from "lucide-react";
 import { useState } from "react";
+import crncloLogo from "@/assets/crnclo-logo.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,8 +16,8 @@ const Navbar = () => {
         </div>
 
         {/* Logo */}
-        <a href="/" className="text-xl md:text-2xl tracking-widest text-foreground text-center flex-1 md:flex-none" style={{ fontFamily: "'Playfair Display', serif" }}>
-          CERTIFIED RICH NARRATIVE
+        <a href="/" className="text-center flex-1 md:flex-none flex items-center justify-center">
+          <img src={crncloLogo} alt="CRNCLO" className="h-14 md:h-16 w-auto" />
         </a>
 
         {/* Right nav */}

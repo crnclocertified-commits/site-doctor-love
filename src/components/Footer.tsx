@@ -1,3 +1,5 @@
+import crncloLogo from "@/assets/crnclo-logo.png";
+
 const Footer = () => {
   return (
     <footer className="border-t border-border bg-card">
@@ -5,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <h3 className="font-display text-2xl text-foreground tracking-widest mb-4">CRN</h3>
+            <img src={crncloLogo} alt="CRNCLO" className="h-20 w-auto mb-4" style={{ mixBlendMode: "screen" }} />
             <p className="text-muted-foreground text-xs leading-relaxed max-w-xs">
               Certified Rich Narrative — The uniform for those who built their story without a blueprint, a mentor, or permission.
             </p>

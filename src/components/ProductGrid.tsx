@@ -85,7 +85,7 @@ const ProductCard = ({ product }: { product: typeof products[0] }) => {
 
         {/* Quick shop */}
         <div className="absolute bottom-0 left-0 right-0 bg-gold text-primary-foreground text-xs tracking-[0.2em] uppercase font-semibold text-center py-3 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-          Shop Now
+          Secure Yours
         </div>
       </div>
 

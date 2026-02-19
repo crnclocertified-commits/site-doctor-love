@@ -32,6 +32,9 @@ const FounderStatement = () => {
 
             <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">
               <p>
+                No mentor. No roadmap. No inheritance. Just the conviction that if I kept showing up — every day, before anyone was watching — something real would come from it.
+              </p>
+              <p>
                 CRNCLO exists to pass down what we learn — step by step, no gatekeeping. Built in real time. No filters, no shortcuts.
               </p>
               <p className="text-foreground font-medium">

@@ -37,7 +37,7 @@ const BrandStory = () => {
           <div className="mt-10 flex gap-10">
             <div>
               <p className="font-display text-4xl text-gold">NC</p>
-              <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">The Becoming</p>
+              <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">Built Without Guidance</p>
             </div>
             <div className="w-px bg-border" />
             <div>

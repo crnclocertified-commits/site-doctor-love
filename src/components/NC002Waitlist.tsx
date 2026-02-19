@@ -55,7 +55,7 @@ const NC002Waitlist = () => {
           </h2>
 
           <p className="text-muted-foreground text-sm tracking-[0.15em] uppercase mb-4">
-            NC002 — The Becoming Continues
+            NC002 — The Next Chapter
           </p>
 
           <p className="text-muted-foreground text-sm leading-relaxed max-w-md mx-auto mb-10">

@@ -37,7 +37,7 @@ const Hero = () => {
           The uniform for those rewriting the story they were never supposed to tell.
         </p>
         <p className="text-muted-foreground/60 text-xs tracking-[0.2em] uppercase mb-10">
-          The Becoming — NC001 — Won't Restock
+          Built Without Guidance — NC001 — Won't Restock
         </p>
 
         {/* CTAs */}

@@ -27,7 +27,7 @@ const BrandStory = () => {
               Some of us were never handed a roadmap. No one pulled us aside. No safety net. No inherited advantage. Just raw instinct, daily discipline, and the refusal to let someone else's story become ours.
             </p>
             <p>
-              NC001 — The Becoming — is for the person still in the building phase. Still learning. Still breaking old patterns. Awake to who they're becoming, but not finished writing the chapter yet.
+              NC001 — Built Without Guidance — is for the person still in the building phase. Still learning. Still breaking old patterns. Awake to who they're becoming, but not finished writing the chapter yet.
             </p>
             <p className="text-foreground font-medium">
               This isn't clothing. It's a certified record of everything you chose to build when nobody was watching.

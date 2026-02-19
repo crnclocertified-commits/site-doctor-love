@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50" style={{ top: "36px" }}>
-      <nav className="bg-background/95 backdrop-blur-md border-b border-border px-6 md:px-12 py-4 flex items-center justify-between">
+      <nav className="bg-background/95 backdrop-blur-md border-b border-border px-6 md:px-12 py-2 flex items-center justify-between">
         {/* Left nav */}
         <div className="hidden md:flex items-center gap-8">
           <a href="#shop" className="text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors">Shop</a>
@@ -17,7 +17,7 @@ const Navbar = () => {
 
         {/* Logo */}
         <a href="/" className="text-center flex-1 md:flex-none flex items-center justify-center">
-          <img src={crncloLogo} alt="CRNCLO" className="h-32 md:h-44 w-auto" style={{ mixBlendMode: "screen" }} />
+          <img src={crncloLogo} alt="CRNCLO" className="h-16 md:h-20 w-auto" style={{ mixBlendMode: "screen" }} />
         </a>
 
         {/* Right nav */}

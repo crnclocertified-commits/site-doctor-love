@@ -3,6 +3,8 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import ProductGrid from "@/components/ProductGrid";
 import BrandStory from "@/components/BrandStory";
+import EvolutionRoadmap from "@/components/EvolutionRoadmap";
+import NarrativeStudio from "@/components/NarrativeStudio";
 import FounderStatement from "@/components/FounderStatement";
 import NC002Waitlist from "@/components/NC002Waitlist";
 import SocialProof from "@/components/SocialProof";
@@ -18,6 +20,8 @@ const Index = () => {
         <Hero />
         <ProductGrid />
         <BrandStory />
+        <EvolutionRoadmap />
+        <NarrativeStudio />
         <FounderStatement />
         <NC002Waitlist />
         <SocialProof />
@@ -29,3 +33,4 @@ const Index = () => {
 };
 
 export default Index;
+

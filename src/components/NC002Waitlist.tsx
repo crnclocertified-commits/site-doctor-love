@@ -64,9 +64,9 @@ const NC002Waitlist = () => {
 
           {submitted ? (
             <div className="border border-gold/40 px-8 py-6 bg-gold/5">
-              <p className="text-gold font-display text-xl mb-1">You're on the list.</p>
+              <p className="text-gold font-display text-xl mb-1">You're locked in.</p>
               <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase">
-                We'll reach out before anyone else.
+                You'll hear from us before the world does.
               </p>
             </div>
           ) : (

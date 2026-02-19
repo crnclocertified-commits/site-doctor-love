@@ -2,7 +2,7 @@ const collections = [
   {
     code: "NC",
     name: "Narrative",
-    subtitle: "The Becoming",
+    subtitle: "Built Without Guidance",
     chapter: "NC001 — Active Now",
     status: "active",
     description:

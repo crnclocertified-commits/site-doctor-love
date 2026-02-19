@@ -17,7 +17,7 @@ const BrandStory = () => {
 
         {/* Text */}
         <div>
-          <p className="text-gold text-xs tracking-[0.3em] uppercase mb-4">The Becoming</p>
+          <p className="text-gold text-xs tracking-[0.3em] uppercase mb-4">Built Without Guidance — NC001</p>
           <h2 className="font-display text-5xl md:text-7xl text-foreground leading-none mb-8">
             No Blueprint.<br />No Mentor.<br />
             <span className="text-3xl md:text-4xl text-gold">No Permission Needed.</span>
@@ -27,7 +27,7 @@ const BrandStory = () => {
               Some of us were never handed a roadmap. No one pulled us aside. No safety net. No inherited advantage. Just raw instinct, daily discipline, and the refusal to let someone else's story become ours.
             </p>
             <p>
-              NC001 — The Becoming — is for the person still in the building phase. Still learning. Still breaking old patterns. Awake to who they're becoming, but not finished writing the chapter yet.
+              NC001 — Built Without Guidance — is for the person still in the building phase. Still learning. Still breaking old patterns. Awake to who they're becoming, but not finished writing the chapter yet.
             </p>
             <p className="text-foreground font-medium">
               This isn't clothing. It's a certified record of everything you chose to build when nobody was watching.
@@ -37,7 +37,7 @@ const BrandStory = () => {
           <div className="mt-10 flex gap-10">
             <div>
               <p className="font-display text-4xl text-gold">NC</p>
-              <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">The Becoming</p>
+              <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">Built Without Guidance</p>
             </div>
             <div className="w-px bg-border" />
             <div>

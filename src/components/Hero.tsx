@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="flex items-center gap-3 mb-6">
           <div className="h-px w-8 bg-gold opacity-60" />
           <span className="gradient-gold text-primary-foreground text-[10px] tracking-[0.35em] uppercase font-bold px-5 py-2 shadow-gold">
-            Narrative Collection — NC001
+            Chapter 001 — Limited First Run
           </span>
           <div className="h-px w-8 bg-gold opacity-60" />
         </div>
@@ -34,10 +34,10 @@ const Hero = () => {
 
         {/* Sub */}
         <p className="text-muted-foreground text-sm sm:text-base tracking-[0.15em] uppercase max-w-lg mb-4">
-          The uniform for those who dare to transcend the narrative prescribed to them.
+          The uniform for those rewriting the story they were never supposed to tell.
         </p>
         <p className="text-muted-foreground/60 text-xs tracking-[0.2em] uppercase mb-10">
-          The Becoming — Chapter 001
+          The Becoming — NC001 — Won't Restock
         </p>
 
         {/* CTAs */}
@@ -48,13 +48,13 @@ const Hero = () => {
             rel="noreferrer"
             className="gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:opacity-90 transition-all shadow-gold"
           >
-            Shop NC001
+            Secure Yours — NC001
           </a>
           <a
             href="#story"
             className="border border-foreground/30 text-foreground text-xs tracking-[0.25em] uppercase px-10 py-4 hover:border-gold hover:text-gold transition-all"
           >
-            The Story
+            Read the Story
           </a>
         </div>
       </div>

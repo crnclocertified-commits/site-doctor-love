@@ -60,7 +60,7 @@ const SocialProof = () => {
             rel="noreferrer"
             className="inline-block gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-12 py-4 hover:opacity-90 transition-all shadow-gold"
           >
-            Secure Your Founding Piece
+            Claim Your Founding Piece
           </a>
         </div>
       </div>

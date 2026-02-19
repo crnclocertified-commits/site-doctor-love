@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 
 const messages = [
   "No Blueprint. No Excuses. One Standard. — Free shipping on orders over $150 AUD",
-  "Not a fashion brand. A certified record of what you built.",
-  "The uniform for those who dared to write their own story.",
-  "We're uniquely in this together. — Free shipping on orders over $150 AUD",
+  "This isn't a fashion brand. It's a certified record of what you built without help.",
+  "Worn by those who stopped waiting for permission. — NC001 available now.",
+  "You didn't get handed a roadmap. Neither did we. — Free shipping over $150 AUD",
 ];
 
 const AnnouncementBar = () => {

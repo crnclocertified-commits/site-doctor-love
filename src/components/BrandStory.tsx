@@ -57,7 +57,7 @@ const BrandStory = () => {
             rel="noreferrer"
             className="inline-block mt-10 gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:opacity-90 transition-all shadow-gold"
           >
-            Shop NC001
+            Own Your Chapter — NC001
           </a>
         </div>
       </div>

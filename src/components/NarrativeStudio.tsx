@@ -119,7 +119,7 @@ const NarrativeStudio = () => {
 
                 <div className="mt-8 pt-6 border-t border-border">
                   <p className="text-muted-foreground text-xs tracking-[0.15em] uppercase">
-                    Get on the NC002 waitlist to be first in the door.
+                    NC002 waitlist = first in the door when the Inner Circle opens.
                   </p>
                 </div>
               </div>

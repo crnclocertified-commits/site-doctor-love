@@ -74,7 +74,7 @@ const Footer = () => {
             © {new Date().getFullYear()} Certified Rich Narrative. All rights reserved.
           </p>
           <p className="text-muted-foreground text-xs tracking-wide">
-            Built Without Guidance. — Australia
+            No Blueprint. No Excuses. One Standard. — Australia
           </p>
         </div>
       </div>

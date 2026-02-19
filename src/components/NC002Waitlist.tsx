@@ -98,7 +98,7 @@ const NC002Waitlist = () => {
           )}
 
           <p className="text-muted-foreground text-xs mt-5 tracking-[0.15em] uppercase opacity-60">
-            No spam. First access only.
+            No noise. No spam. Just first access — when it matters.
           </p>
 
         </div>

@@ -17,7 +17,7 @@ const Navbar = () => {
 
         {/* Logo */}
         <a href="/" className="text-center flex-1 md:flex-none flex items-center justify-center">
-          <img src={crncloLogo} alt="CRNCLO" className="h-24 md:h-32 w-auto bg-white px-4 py-2" />
+          <img src={crncloLogo} alt="CRNCLO" className="h-24 md:h-32 w-auto" />
         </a>
 
         {/* Right nav */}

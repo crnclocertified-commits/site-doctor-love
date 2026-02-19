@@ -11,7 +11,7 @@ const Hero = () => {
 
       {/* Overlay gradient */}
       <div className="absolute inset-0" style={{ background: "var(--gradient-hero)" }} />
-      <div className="absolute inset-0 bg-background/40" />
+      <div className="absolute inset-0 bg-background/50" />
 
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
@@ -19,22 +19,25 @@ const Hero = () => {
         <div className="flex items-center gap-3 mb-6">
           <div className="h-px w-8 bg-gold opacity-60" />
           <span className="gradient-gold text-primary-foreground text-[10px] tracking-[0.35em] uppercase font-bold px-5 py-2 shadow-gold">
-            Chapter 001 — Limited Run
+            Narrative Collection — NC001
           </span>
           <div className="h-px w-8 bg-gold opacity-60" />
         </div>
 
         {/* Headline */}
         <h1 className="font-display text-6xl sm:text-8xl md:text-[10rem] leading-none text-foreground mb-4">
-          Built Without
+          I'm Not Asleep
         </h1>
         <h1 className="font-display text-6xl sm:text-8xl md:text-[10rem] leading-none text-gold mb-8">
-          Guidance.
+          Anymore.
         </h1>
 
         {/* Sub */}
-        <p className="text-muted-foreground text-sm sm:text-base tracking-[0.15em] uppercase max-w-md mb-10">
-          The first release — For those who figured it out on their own.
+        <p className="text-muted-foreground text-sm sm:text-base tracking-[0.15em] uppercase max-w-lg mb-4">
+          The uniform for those who dare to transcend the narrative prescribed to them.
+        </p>
+        <p className="text-muted-foreground/60 text-xs tracking-[0.2em] uppercase mb-10">
+          The Becoming — Chapter 001
         </p>
 
         {/* CTAs */}
@@ -43,15 +46,15 @@ const Hero = () => {
             href="https://certifiedrichnarrative.com.au/collections/all"
             target="_blank"
             rel="noreferrer"
-          className="gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:opacity-90 transition-all shadow-gold"
+            className="gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:opacity-90 transition-all shadow-gold"
           >
-            Secure Yours
+            Shop NC001
           </a>
           <a
             href="#story"
-            className="border border-foreground/30 text-foreground text-xs tracking-[0.25em] uppercase px-10 py-4 hover:border-foreground transition-all"
+            className="border border-foreground/30 text-foreground text-xs tracking-[0.25em] uppercase px-10 py-4 hover:border-gold hover:text-gold transition-all"
           >
-            Our Story
+            The Story
           </a>
         </div>
       </div>

@@ -17,37 +17,37 @@ const BrandStory = () => {
 
         {/* Text */}
         <div>
-          <p className="text-gold text-xs tracking-[0.3em] uppercase mb-4">The Movement</p>
+          <p className="text-gold text-xs tracking-[0.3em] uppercase mb-4">The Becoming</p>
           <h2 className="font-display text-5xl md:text-7xl text-foreground leading-none mb-8">
-            We're Uniquely<br />In This Together.<br />
-            <span className="text-3xl md:text-4xl text-gold">No Blueprint. N0 Excuses. One Standard.</span>
+            Orphaned<br />By The World.<br />
+            <span className="text-3xl md:text-4xl text-gold">We Reclaim The Narrative.</span>
           </h2>
           <div className="space-y-5 text-muted-foreground text-sm leading-relaxed">
             <p>
-              Certified Rich Narrative was born from a simple truth — some of us never had a roadmap. No mentors pulling us aside, no manual handed down. Just instinct, resilience, and the will to build something real.
+              Some of us were never handed a blueprint. No mentor pulling us aside, no safety net, no permission slip. Just instinct, resilience, and the refusal to accept a story someone else wrote for us.
             </p>
             <p>
-              NC001 is the first chapter of that story. Each piece in this collection carries a name that means something — a reminder that the path you carved on your own is the one worth wearing.
+              NC001 — The Becoming — is the first chapter. It's for the person who isn't where they want to be yet, but is no longer asleep. Aware of their story. Actively rewriting it.
             </p>
             <p className="text-foreground font-medium">
-              This isn't just clothing. It's a certified record of what you built.
+              This isn't clothing. It's a certified record of everything you chose to build without guidance.
             </p>
           </div>
 
           <div className="mt-10 flex gap-10">
             <div>
-              <p className="font-display text-4xl text-gold">001</p>
-              <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">First Chapter</p>
+              <p className="font-display text-4xl text-gold">NC</p>
+              <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">The Becoming</p>
             </div>
             <div className="w-px bg-border" />
             <div>
-              <p className="font-display text-4xl text-gold">AU</p>
-              <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">Made for AU</p>
+              <p className="font-display text-4xl text-gold">RC</p>
+              <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">The Mind</p>
             </div>
             <div className="w-px bg-border" />
             <div>
-              <p className="font-display text-4xl text-gold">CRN</p>
-              <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">The Standard</p>
+              <p className="font-display text-4xl text-gold">CC</p>
+              <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">The Authority</p>
             </div>
           </div>
 
@@ -57,7 +57,7 @@ const BrandStory = () => {
             rel="noreferrer"
             className="inline-block mt-10 gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:opacity-90 transition-all shadow-gold"
           >
-            Shop the Story
+            Shop NC001
           </a>
         </div>
       </div>

@@ -55,11 +55,11 @@ const NC002Waitlist = () => {
           </h2>
 
           <p className="text-muted-foreground text-sm tracking-[0.15em] uppercase mb-4">
-            NC002 — The Next Standard
+            NC002 — The Becoming Continues
           </p>
 
           <p className="text-muted-foreground text-sm leading-relaxed max-w-md mx-auto mb-10">
-            Chapter 001 is only the beginning. NC002 is being built in silence. Be first — no second chances, no restocks.
+            NC001 proved the foundation. NC002 is being built with intention — custom packaging, a branded experience, and a community that earned their place first. No restocks. No second chances. This is what it means to be early.
           </p>
 
           {submitted ? (

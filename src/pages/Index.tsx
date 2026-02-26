@@ -19,12 +19,12 @@ const Index = () => {
       <main style={{ paddingTop: "36px" }}>
         <Hero />
         <ProductGrid />
+        <SocialProof />
         <BrandStory />
+        <FounderStatement />
         <EvolutionRoadmap />
         <NarrativeStudio />
-        <FounderStatement />
         <NC002Waitlist />
-        <SocialProof />
         <Newsletter />
       </main>
       <Footer />

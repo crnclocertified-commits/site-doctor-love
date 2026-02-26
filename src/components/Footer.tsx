@@ -17,15 +17,21 @@ const Footer = () => {
           <div>
             <h4 className="text-foreground text-xs tracking-[0.2em] uppercase font-semibold mb-5">Shop</h4>
             <ul className="space-y-3">
-              {["NC001 Collection", "T-Shirts", "Hoodies", "Accessories", "All Products"].map((item) => (
-                <li key={item}>
+              {[
+                { name: "NC001 Collection", url: "https://certifiedrichnarrative.com.au/collections/nc001" },
+                { name: "T-Shirts", url: "https://certifiedrichnarrative.com.au/collections/nc001" },
+                { name: "Hoodies", url: "https://certifiedrichnarrative.com.au/collections/nc001" },
+                { name: "Accessories", url: "https://certifiedrichnarrative.com.au/collections/nc001" },
+                { name: "All Products", url: "https://certifiedrichnarrative.com.au/collections/all" },
+              ].map((item) => (
+                <li key={item.name}>
                   <a
-                    href="https://certifiedrichnarrative.com.au/collections/all"
+                    href={item.url}
                     target="_blank"
                     rel="noreferrer"
-                    className="text-muted-foreground text-xs hover:text-foreground transition-colors"
+                    className="text-muted-foreground text-xs hover:text-gold transition-colors"
                   >
-                    {item}
+                    {item.name}
                   </a>
                 </li>
               ))}
@@ -44,7 +50,7 @@ const Footer = () => {
                 { name: "FAQ", path: "/faq" },
               ].map((item) => (
                 <li key={item.name}>
-                  <a href={item.path} className="text-muted-foreground text-xs hover:text-foreground transition-colors">
+                  <a href={item.path} className="text-muted-foreground text-xs hover:text-gold transition-colors">
                     {item.name}
                   </a>
                 </li>

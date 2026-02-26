@@ -26,7 +26,7 @@ const Navbar = () => {
             <Search size={18} />
           </button>
           <a
-            href="https://certifiedrichnarrative.com.au/collections/all"
+            href="https://certifiedrichnarrative.com.au/collections/nc001"
             target="_blank"
             rel="noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"

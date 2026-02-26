@@ -55,7 +55,7 @@ const SocialProof = () => {
         {/* CTA */}
         <div className="mt-16 text-center">
           <a
-            href="https://certifiedrichnarrative.com.au/collections/all"
+            href="https://certifiedrichnarrative.com.au/collections/nc001"
             target="_blank"
             rel="noreferrer"
             className="inline-block gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-12 py-4 hover:opacity-90 transition-all shadow-gold"

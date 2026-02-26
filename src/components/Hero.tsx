@@ -43,7 +43,7 @@ const Hero = () => {
         {/* CTAs */}
         <div className="flex flex-col sm:flex-row gap-4 items-center">
           <a
-            href="https://certifiedrichnarrative.com.au/collections/all"
+            href="https://certifiedrichnarrative.com.au/collections/nc001"
             target="_blank"
             rel="noreferrer"
             className="gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:opacity-90 transition-all shadow-gold"
@@ -51,7 +51,7 @@ const Hero = () => {
             Secure Yours — NC001
           </a>
           <a
-            href="#story"
+            href="/our-story"
             className="border border-foreground/30 text-foreground text-xs tracking-[0.25em] uppercase px-10 py-4 hover:border-gold hover:text-gold transition-all"
           >
             Read the Story

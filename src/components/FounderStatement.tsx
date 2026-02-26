@@ -43,9 +43,9 @@ const FounderStatement = () => {
             </div>
 
             {/* Signature */}
-            <div className="mt-10 pt-8 border-t border-border">
-              <p className="font-display text-2xl text-gold">CRN Founder</p>
-              <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase mt-1">Certified Rich Narrative</p>
+            <div className="mt-8 md:mt-10 pt-6 md:pt-8 border-t border-border">
+              <p className="font-display text-xl md:text-2xl text-gold">Jima Dau</p>
+              <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase mt-1">Founder — Certified Rich Narrative</p>
             </div>
           </div>
 

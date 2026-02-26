@@ -66,7 +66,7 @@ const Footer = () => {
                 { name: "Instagram", url: "https://instagram.com/crnclo" },
                 { name: "TikTok", url: "https://tiktok.com/@crnclo" },
                 { name: "Facebook", url: "https://facebook.com/crnclo" },
-                { name: "YouTube", url: "https://youtube.com/@crnclo" },
+                { name: "YouTube", url: "https://youtube.com/@certifiedrichnarrative" },
               ].map((s) => (
                 <li key={s.name}>
                   <a

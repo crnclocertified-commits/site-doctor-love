@@ -112,7 +112,7 @@ const ProductGrid = () => {
           <h2 className="font-display text-5xl md:text-7xl text-foreground">​NARRATIVE COLLECTION</h2>
         </div>
         <a
-          href="https://certifiedrichnarrative.com.au/collections/all"
+          href="https://certifiedrichnarrative.com.au/collections/nc001"
           target="_blank"
           rel="noreferrer"
           className="border border-border text-foreground text-xs tracking-[0.2em] uppercase px-8 py-3 hover:border-gold hover:text-gold transition-all self-start md:self-auto">

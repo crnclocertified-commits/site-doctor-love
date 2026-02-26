@@ -62,7 +62,7 @@ const NarrativeStudio = () => {
                 Follow on TikTok
               </a>
               <a
-                href="https://www.youtube.com/@certifiedrichnarrative"
+                href="https://www.youtube.com/@crnclo"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-3 border border-border text-foreground text-xs tracking-[0.2em] uppercase px-6 py-4 hover:border-gold hover:text-gold transition-all group"

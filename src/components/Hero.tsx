@@ -51,7 +51,7 @@ const Hero = () => {
             Secure Yours — NC001
           </a>
           <a
-            href="#story"
+            href="/our-story"
             className="border border-foreground/30 text-foreground text-xs tracking-[0.25em] uppercase px-10 py-4 hover:border-gold hover:text-gold transition-all"
           >
             Read the Story

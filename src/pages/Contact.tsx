@@ -34,9 +34,10 @@ const Contact = () => {
                   <h3 className="text-foreground text-xs tracking-[0.2em] uppercase font-semibold mb-3">Follow Us</h3>
                   <div className="flex gap-6">
                     {[
-                      { name: "Instagram", url: "https://instagram.com" },
-                      { name: "TikTok", url: "https://tiktok.com" },
-                      { name: "Facebook", url: "https://facebook.com" },
+                      { name: "Instagram", url: "https://instagram.com/crnclo" },
+                      { name: "TikTok", url: "https://tiktok.com/@crnclo" },
+                      { name: "Facebook", url: "https://facebook.com/crnclo" },
+                      { name: "YouTube", url: "https://youtube.com/@crnclo" },
                     ].map((s) => (
                       <a key={s.name} href={s.url} target="_blank" rel="noreferrer" className="text-muted-foreground text-xs hover:text-gold transition-colors">
                         {s.name}

@@ -39,8 +39,8 @@ const collections = [
 
 const EvolutionRoadmap = () => {
   return (
-    <section id="evolution" className="py-24 border-t border-border overflow-hidden">
-      <div className="max-w-screen-xl mx-auto px-6 md:px-12">
+    <section id="evolution" className="py-16 md:py-24 border-t border-border overflow-hidden">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-12">
 
         {/* Header */}
         <div className="text-center mb-16">

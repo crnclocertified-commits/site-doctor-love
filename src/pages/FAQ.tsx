@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     q: "How do I contact support?",
-    a: "Email us at support@certifiedrichnarrative.com.au. We typically respond within 24–48 hours. For order-related enquiries, include your order number for faster assistance.",
+    a: "Email us at info@certifiedrichnarrative.com.au. We typically respond within 24–48 hours. For order-related enquiries, include your order number for faster assistance.",
   },
   {
     q: "Where is CRNCLO based?",

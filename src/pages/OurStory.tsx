@@ -36,7 +36,7 @@ const OurStory = () => {
               <blockquote className="font-display text-2xl text-foreground italic leading-relaxed">
                 "Somewhere there's a kid with no blueprint. This is for them."
               </blockquote>
-              <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase mt-4">— Jima Dau, Founder</p>
+              <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase mt-4">— Jima Dau, Founder of Certified Rich Narrative</p>
             </div>
           </div>
         </section>

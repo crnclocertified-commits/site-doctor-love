@@ -45,9 +45,9 @@ const Navbar = () => {
       {/* Mobile menu */}
       {menuOpen && (
         <div className="md:hidden bg-background border-b border-border px-6 py-6 flex flex-col gap-6">
-          <a href="#shop" className="text-sm tracking-[0.2em] uppercase text-muted-foreground" onClick={() => setMenuOpen(false)}>Shop</a>
-          <a href="#story" className="text-sm tracking-[0.2em] uppercase text-muted-foreground" onClick={() => setMenuOpen(false)}>Our Story</a>
-          <a href="#collections" className="text-sm tracking-[0.2em] uppercase text-muted-foreground" onClick={() => setMenuOpen(false)}>NC001</a>
+          <a href="https://certifiedrichnarrative.com.au/collections/nc001" target="_blank" rel="noreferrer" className="text-sm tracking-[0.2em] uppercase text-muted-foreground" onClick={() => setMenuOpen(false)}>Shop</a>
+          <a href="/our-story" className="text-sm tracking-[0.2em] uppercase text-muted-foreground" onClick={() => setMenuOpen(false)}>Our Story</a>
+          <a href="https://certifiedrichnarrative.com.au/collections/nc001" target="_blank" rel="noreferrer" className="text-sm tracking-[0.2em] uppercase text-muted-foreground" onClick={() => setMenuOpen(false)}>NC001</a>
         </div>
       )}
     </header>

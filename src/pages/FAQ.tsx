@@ -73,8 +73,8 @@ const FAQ = () => {
             <div className="mt-12 border-t border-border pt-8">
               <p className="text-muted-foreground text-xs leading-relaxed">
                 Still have questions? Reach out at{" "}
-                <a href="mailto:support@certifiedrichnarrative.com.au" className="text-gold hover:underline">
-                  support@certifiedrichnarrative.com.au
+                <a href="mailto:info@certifiedrichnarrative.com.au" className="text-gold hover:underline">
+                  info@certifiedrichnarrative.com.au
                 </a>
               </p>
             </div>

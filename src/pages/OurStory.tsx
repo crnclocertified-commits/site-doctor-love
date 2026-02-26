@@ -11,7 +11,7 @@ const OurStory = () => {
         <section className="py-24">
           <div className="max-w-screen-md mx-auto px-6 md:px-12">
             <p className="text-gold text-xs tracking-[0.3em] uppercase mb-4">The Beginning</p>
-            <h1 className="font-display text-5xl md:text-7xl text-foreground leading-none mb-10">Our Story</h1>
+            <h1 className="font-display text-4xl sm:text-5xl md:text-7xl text-foreground leading-none mb-10">Our Story</h1>
 
             <div className="space-y-6 text-muted-foreground text-sm leading-relaxed">
               <p>

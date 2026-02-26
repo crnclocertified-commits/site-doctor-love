@@ -103,7 +103,7 @@ const EvolutionRoadmap = () => {
               </div>
 
               {/* Code + Name */}
-              <p className="font-display text-6xl text-gold leading-none mb-1">{col.code}</p>
+              <p className="font-display text-4xl sm:text-6xl text-gold leading-none mb-1">{col.code}</p>
               <p className="font-display text-xl text-foreground mb-1">{col.name}</p>
               <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase mb-6">{col.subtitle}</p>
 

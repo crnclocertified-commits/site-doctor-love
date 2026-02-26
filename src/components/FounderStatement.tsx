@@ -1,6 +1,6 @@
 const FounderStatement = () => {
   return (
-    <section className="py-24 border-t border-border bg-secondary/30">
+    <section className="py-16 md:py-24 border-t border-border bg-secondary/30">
       <div className="max-w-screen-xl mx-auto px-6 md:px-12">
 
         {/* Label */}

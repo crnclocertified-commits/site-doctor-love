@@ -41,18 +41,18 @@ const Hero = () => {
         </p>
 
         {/* CTAs */}
-        <div className="flex flex-col sm:flex-row gap-4 items-center">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center w-full sm:w-auto px-4 sm:px-0">
           <a
             href="https://certifiedrichnarrative.com.au/collections/nc001"
             target="_blank"
             rel="noreferrer"
-            className="gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:opacity-90 transition-all shadow-gold"
+            className="gradient-gold text-primary-foreground font-semibold text-[11px] sm:text-xs tracking-[0.2em] sm:tracking-[0.25em] uppercase px-8 sm:px-10 py-4 hover:opacity-90 transition-all shadow-gold w-full sm:w-auto text-center"
           >
             Secure Yours — NC001
           </a>
           <a
             href="/our-story"
-            className="border border-foreground/30 text-foreground text-xs tracking-[0.25em] uppercase px-10 py-4 hover:border-gold hover:text-gold transition-all"
+            className="border border-foreground/30 text-foreground text-[11px] sm:text-xs tracking-[0.2em] sm:tracking-[0.25em] uppercase px-8 sm:px-10 py-4 hover:border-gold hover:text-gold transition-all w-full sm:w-auto text-center"
           >
             Read the Story
           </a>

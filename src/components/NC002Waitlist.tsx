@@ -23,7 +23,7 @@ const NC002Waitlist = () => {
   };
 
   return (
-    <section className="py-24 border-t border-border relative overflow-hidden">
+    <section className="py-16 md:py-24 border-t border-border relative overflow-hidden">
       {/* Background texture */}
       <div className="absolute inset-0 bg-secondary/20 pointer-events-none" />
       <div

@@ -57,9 +57,10 @@ const Footer = () => {
             <h4 className="text-foreground text-xs tracking-[0.2em] uppercase font-semibold mb-5">Follow</h4>
             <ul className="space-y-3">
               {[
-                { name: "Instagram", url: "https://instagram.com" },
-                { name: "TikTok", url: "https://tiktok.com" },
-                { name: "Facebook", url: "https://facebook.com" },
+                { name: "Instagram", url: "https://instagram.com/crnclo" },
+                { name: "TikTok", url: "https://tiktok.com/@crnclo" },
+                { name: "Facebook", url: "https://facebook.com/crnclo" },
+                { name: "YouTube", url: "https://youtube.com/@crnclo" },
               ].map((s) => (
                 <li key={s.name}>
                   <a

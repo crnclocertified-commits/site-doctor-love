@@ -10,9 +10,9 @@ const Navbar = () => {
       <nav className="bg-background/95 backdrop-blur-md border-b border-border px-6 md:px-12 py-1 flex items-center justify-between overflow-visible">
         {/* Left nav */}
         <div className="hidden md:flex items-center gap-8">
-          <a href="#shop" className="text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors">Shop</a>
-          <a href="#story" className="text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors">Our Story</a>
-          <a href="#collections" className="text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors">NC001</a>
+          <a href="https://certifiedrichnarrative.com.au/collections/nc001" target="_blank" rel="noreferrer" className="text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors">Shop</a>
+          <a href="/our-story" className="text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors">Our Story</a>
+          <a href="https://certifiedrichnarrative.com.au/collections/nc001" target="_blank" rel="noreferrer" className="text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors">NC001</a>
         </div>
 
         {/* Logo */}
@@ -45,9 +45,9 @@ const Navbar = () => {
       {/* Mobile menu */}
       {menuOpen && (
         <div className="md:hidden bg-background border-b border-border px-6 py-6 flex flex-col gap-6">
-          <a href="#shop" className="text-sm tracking-[0.2em] uppercase text-muted-foreground" onClick={() => setMenuOpen(false)}>Shop</a>
-          <a href="#story" className="text-sm tracking-[0.2em] uppercase text-muted-foreground" onClick={() => setMenuOpen(false)}>Our Story</a>
-          <a href="#collections" className="text-sm tracking-[0.2em] uppercase text-muted-foreground" onClick={() => setMenuOpen(false)}>NC001</a>
+          <a href="https://certifiedrichnarrative.com.au/collections/nc001" target="_blank" rel="noreferrer" className="text-sm tracking-[0.2em] uppercase text-muted-foreground" onClick={() => setMenuOpen(false)}>Shop</a>
+          <a href="/our-story" className="text-sm tracking-[0.2em] uppercase text-muted-foreground" onClick={() => setMenuOpen(false)}>Our Story</a>
+          <a href="https://certifiedrichnarrative.com.au/collections/nc001" target="_blank" rel="noreferrer" className="text-sm tracking-[0.2em] uppercase text-muted-foreground" onClick={() => setMenuOpen(false)}>NC001</a>
         </div>
       )}
     </header>

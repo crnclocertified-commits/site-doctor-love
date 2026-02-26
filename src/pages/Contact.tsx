@@ -18,8 +18,8 @@ const Contact = () => {
               <div className="space-y-8">
                 <div>
                   <h3 className="text-foreground text-xs tracking-[0.2em] uppercase font-semibold mb-3">Email</h3>
-                  <a href="mailto:support@certifiedrichnarrative.com.au" className="text-gold text-sm hover:underline">
-                    support@certifiedrichnarrative.com.au
+                  <a href="mailto:info@certifiedrichnarrative.com.au" className="text-gold text-sm hover:underline">
+                    info@certifiedrichnarrative.com.au
                   </a>
                 </div>
                 <div>

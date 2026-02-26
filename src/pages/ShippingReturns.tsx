@@ -57,8 +57,8 @@ const ShippingReturns = () => {
                   </ul>
                   <p>
                     To initiate a return, email us at{" "}
-                    <a href="mailto:support@certifiedrichnarrative.com.au" className="text-gold hover:underline">
-                      support@certifiedrichnarrative.com.au
+                    <a href="mailto:info@certifiedrichnarrative.com.au" className="text-gold hover:underline">
+                      info@certifiedrichnarrative.com.au
                     </a>{" "}
                     with your order number and reason for return.
                   </p>

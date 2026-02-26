@@ -23,7 +23,7 @@ const AnnouncementBar = () => {
   }, []);
 
   return (
-    <div className="bg-gold text-primary-foreground text-center py-2 px-4 text-xs font-semibold tracking-[0.2em] uppercase overflow-hidden">
+    <div className="bg-gold text-primary-foreground text-center py-2 px-3 sm:px-4 text-[9px] sm:text-xs font-semibold tracking-[0.1em] sm:tracking-[0.2em] uppercase overflow-hidden">
       <span
         style={{
           opacity: visible ? 1 : 0,

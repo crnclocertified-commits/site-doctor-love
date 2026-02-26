@@ -25,34 +25,34 @@ const Hero = () => {
         </div>
 
         {/* Headline */}
-        <h1 className="font-display text-6xl sm:text-8xl md:text-[10rem] leading-none text-foreground mb-4">
+        <h1 className="font-display text-4xl sm:text-7xl md:text-[10rem] leading-none text-foreground mb-2 sm:mb-4">
           Built Without
         </h1>
-        <h1 className="font-display text-6xl sm:text-8xl md:text-[10rem] leading-none text-gold mb-8">
+        <h1 className="font-display text-4xl sm:text-7xl md:text-[10rem] leading-none text-gold mb-6 sm:mb-8">
           Guidance.
         </h1>
 
         {/* Sub */}
-        <p className="text-muted-foreground text-sm sm:text-base tracking-[0.15em] uppercase max-w-lg mb-4">
+        <p className="text-muted-foreground text-xs sm:text-base tracking-[0.1em] sm:tracking-[0.15em] uppercase max-w-lg mb-3 sm:mb-4 px-4 sm:px-0">
           The uniform for those rewriting the story they were never supposed to tell.
         </p>
-        <p className="text-muted-foreground/60 text-xs tracking-[0.2em] uppercase mb-10">
+        <p className="text-muted-foreground/60 text-[10px] sm:text-xs tracking-[0.15em] sm:tracking-[0.2em] uppercase mb-8 sm:mb-10">
           Built Without Guidance — NC001 — Won't Restock
         </p>
 
         {/* CTAs */}
-        <div className="flex flex-col sm:flex-row gap-4 items-center">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-center w-full sm:w-auto px-4 sm:px-0">
           <a
             href="https://certifiedrichnarrative.com.au/collections/nc001"
             target="_blank"
             rel="noreferrer"
-            className="gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:opacity-90 transition-all shadow-gold"
+            className="gradient-gold text-primary-foreground font-semibold text-[11px] sm:text-xs tracking-[0.2em] sm:tracking-[0.25em] uppercase px-8 sm:px-10 py-4 hover:opacity-90 transition-all shadow-gold w-full sm:w-auto text-center"
           >
             Secure Yours — NC001
           </a>
           <a
             href="/our-story"
-            className="border border-foreground/30 text-foreground text-xs tracking-[0.25em] uppercase px-10 py-4 hover:border-gold hover:text-gold transition-all"
+            className="border border-foreground/30 text-foreground text-[11px] sm:text-xs tracking-[0.2em] sm:tracking-[0.25em] uppercase px-8 sm:px-10 py-4 hover:border-gold hover:text-gold transition-all w-full sm:w-auto text-center"
           >
             Read the Story
           </a>

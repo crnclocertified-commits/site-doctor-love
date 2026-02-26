@@ -1,6 +1,6 @@
 const FounderStatement = () => {
   return (
-    <section className="py-24 border-t border-border bg-secondary/30">
+    <section className="py-16 md:py-24 border-t border-border bg-secondary/30">
       <div className="max-w-screen-xl mx-auto px-6 md:px-12">
 
         {/* Label */}
@@ -24,9 +24,9 @@ const FounderStatement = () => {
           {/* Statement */}
           <div className="order-1 md:order-2">
             {/* Opening quote mark */}
-            <div className="font-display text-8xl text-gold leading-none mb-0 -mb-4 opacity-60 select-none">"</div>
+            <div className="font-display text-6xl md:text-8xl text-gold leading-none -mb-2 md:-mb-4 opacity-60 select-none">"</div>
 
-            <blockquote className="font-display text-3xl md:text-4xl text-foreground leading-tight mb-8">
+            <blockquote className="font-display text-2xl md:text-4xl text-foreground leading-tight mb-6 md:mb-8">
               ​If there's no roadmap we become the architects          
             </blockquote>
 
@@ -43,9 +43,9 @@ const FounderStatement = () => {
             </div>
 
             {/* Signature */}
-            <div className="mt-10 pt-8 border-t border-border">
-              <p className="font-display text-2xl text-gold">CRN Founder</p>
-              <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase mt-1">Certified Rich Narrative</p>
+            <div className="mt-8 md:mt-10 pt-6 md:pt-8 border-t border-border">
+              <p className="font-display text-xl md:text-2xl text-gold">Jima Dau</p>
+              <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase mt-1">Founder — Certified Rich Narrative</p>
             </div>
           </div>
 

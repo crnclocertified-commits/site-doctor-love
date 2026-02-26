@@ -12,7 +12,7 @@ const Newsletter = () => {
   };
 
   return (
-    <section className="py-24 border-t border-border relative overflow-hidden">
+    <section className="py-16 md:py-24 border-t border-border relative overflow-hidden">
       {/* Background accent */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] rounded-full bg-gold opacity-[0.04] blur-3xl" />
@@ -20,7 +20,7 @@ const Newsletter = () => {
 
       <div className="relative z-10 max-w-2xl mx-auto px-6 text-center">
         <p className="text-gold text-xs tracking-[0.3em] uppercase mb-4">Stay in the loop</p>
-        <h2 className="font-display text-5xl md:text-7xl text-foreground mb-4">
+        <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground mb-4">
           ​Join the Narrative     
         </h2>
         <p className="text-muted-foreground text-sm leading-relaxed mb-10 max-w-md mx-auto">

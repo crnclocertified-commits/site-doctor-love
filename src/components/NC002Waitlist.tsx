@@ -23,7 +23,7 @@ const NC002Waitlist = () => {
   };
 
   return (
-    <section className="py-24 border-t border-border relative overflow-hidden">
+    <section className="py-16 md:py-24 border-t border-border relative overflow-hidden">
       {/* Background texture */}
       <div className="absolute inset-0 bg-secondary/20 pointer-events-none" />
       <div
@@ -49,7 +49,7 @@ const NC002Waitlist = () => {
             <div className="h-px w-10 bg-gold opacity-60" />
           </div>
 
-          <h2 className="font-display text-5xl md:text-7xl text-foreground leading-none mb-4">
+          <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground leading-none mb-4">
             The Next<br />
             <span className="text-gold">Chapter.</span>
           </h2>

@@ -39,8 +39,8 @@ const collections = [
 
 const EvolutionRoadmap = () => {
   return (
-    <section id="evolution" className="py-24 border-t border-border overflow-hidden">
-      <div className="max-w-screen-xl mx-auto px-6 md:px-12">
+    <section id="evolution" className="py-16 md:py-24 border-t border-border overflow-hidden">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-12">
 
         {/* Header */}
         <div className="text-center mb-16">
@@ -49,7 +49,7 @@ const EvolutionRoadmap = () => {
             <span className="text-gold text-xs tracking-[0.35em] uppercase">The Architecture</span>
             <div className="h-px w-10 bg-gold opacity-60" />
           </div>
-          <h2 className="font-display text-5xl md:text-7xl text-foreground leading-none mb-4">
+          <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground leading-none mb-4">
             The Evolution
           </h2>
           <p className="text-muted-foreground text-sm tracking-[0.15em] uppercase max-w-lg mx-auto">
@@ -103,7 +103,7 @@ const EvolutionRoadmap = () => {
               </div>
 
               {/* Code + Name */}
-              <p className="font-display text-6xl text-gold leading-none mb-1">{col.code}</p>
+              <p className="font-display text-4xl sm:text-6xl text-gold leading-none mb-1">{col.code}</p>
               <p className="font-display text-xl text-foreground mb-1">{col.name}</p>
               <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase mb-6">{col.subtitle}</p>
 

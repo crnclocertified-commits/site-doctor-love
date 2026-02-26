@@ -37,7 +37,7 @@ const Contact = () => {
                       { name: "Instagram", url: "https://instagram.com/crnclo" },
                       { name: "TikTok", url: "https://tiktok.com/@crnclo" },
                       { name: "Facebook", url: "https://facebook.com/crnclo" },
-                      { name: "YouTube", url: "https://youtube.com/@crnclo" },
+                      { name: "YouTube", url: "https://youtube.com/@certifiedrichnarrative" },
                     ].map((s) => (
                       <a key={s.name} href={s.url} target="_blank" rel="noreferrer" className="text-muted-foreground text-xs hover:text-gold transition-colors">
                         {s.name}

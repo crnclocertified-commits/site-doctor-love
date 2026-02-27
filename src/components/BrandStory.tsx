@@ -40,7 +40,7 @@ const BrandStory = () => {
             </div>
             <div className="w-px bg-border" />
             <div>
-              <p className="font-display text-4xl text-gold">AU</p>
+              <p className="font-display text-4xl text-gold-accent">AU</p>
               <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">Made for AU</p>
             </div>
             <div className="w-px bg-border" />

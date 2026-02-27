@@ -87,6 +87,9 @@
   .text-gold {
     color: hsl(var(--gold));
   }
+  .text-gold-accent {
+    color: hsl(var(--gold-accent));
+  }
   .bg-gold {
     background: hsl(var(--gold));
   }

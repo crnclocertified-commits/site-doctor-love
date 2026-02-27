@@ -18,8 +18,8 @@
     --popover: 222 44% 10%;
     --popover-foreground: 0 0% 95%;
 
-    /* Gold — primary CTA color */
-    --primary: 43 72% 52%;
+    /* Light blue — primary CTA color */
+    --primary: 199 82% 62%;
     --primary-foreground: 222 47% 7%;
 
     /* Dark navy surface */
@@ -29,7 +29,7 @@
     --muted: 222 38% 15%;
     --muted-foreground: 220 15% 55%;
 
-    --accent: 43 72% 52%;
+    --accent: 199 82% 62%;
     --accent-foreground: 222 47% 7%;
 
     --destructive: 0 84.2% 60.2%;
@@ -37,30 +37,30 @@
 
     --border: 222 35% 18%;
     --input: 222 35% 18%;
-    --ring: 43 72% 52%;
+    --ring: 199 82% 62%;
 
     --radius: 0rem;
 
     /* Custom brand tokens */
-    --gold: 43 72% 52%;
-    --gold-dim: 43 50% 38%;
+    --gold: 199 82% 62%;
+    --gold-dim: 199 60% 48%;
     --surface: 222 44% 10%;
     --surface-raised: 222 40% 13%;
     --sidebar-background: 222 47% 7%;
     --sidebar-foreground: 0 0% 95%;
-    --sidebar-primary: 43 72% 52%;
+    --sidebar-primary: 199 82% 62%;
     --sidebar-primary-foreground: 222 47% 7%;
     --sidebar-accent: 222 40% 13%;
     --sidebar-accent-foreground: 0 0% 95%;
     --sidebar-border: 222 35% 18%;
-    --sidebar-ring: 43 72% 52%;
+    --sidebar-ring: 199 82% 62%;
 
     /* Gradients */
     --gradient-hero: linear-gradient(to bottom, hsla(222,47%,7%,0) 0%, hsla(222,47%,7%,0.7) 60%, hsl(222,47%,7%) 100%);
-    --gradient-gold: linear-gradient(135deg, hsl(43,72%,52%), hsl(38,65%,42%));
+    --gradient-gold: linear-gradient(135deg, hsl(199,82%,62%), hsl(199,70%,48%));
 
     /* Shadows */
-    --shadow-gold: 0 0 30px hsla(43,72%,52%,0.25);
+    --shadow-gold: 0 0 30px hsla(199,82%,62%,0.25);
     --shadow-card: 0 4px 24px hsla(0,0%,0%,0.5);
   }
 }

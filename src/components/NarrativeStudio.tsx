@@ -23,13 +23,13 @@ const NarrativeStudio = () => {
           <div>
             <div className="inline-flex items-center gap-3 mb-6">
               <div className="h-px w-10 bg-gold opacity-60" />
-              <span className="text-gold text-xs tracking-[0.35em] uppercase">The Build, Documented</span>
+              <span className="text-gold-accent text-xs tracking-[0.35em] uppercase">The Build, Documented</span>
               <div className="h-px w-10 bg-gold opacity-60" />
             </div>
 
             <h2 className="font-display text-5xl md:text-7xl text-foreground leading-none mb-4">
               Narrative<br />
-              <span className="text-gold">Studio</span>
+              <span className="text-gold-accent">Studio</span>
             </h2>
 
             <p className="text-muted-foreground text-sm tracking-[0.15em] uppercase mb-6">
@@ -85,10 +85,10 @@ const NarrativeStudio = () => {
               />
 
               <div className="relative">
-                <p className="text-gold text-[9px] tracking-[0.4em] uppercase mb-6">Coming Soon</p>
+                <p className="text-gold-accent text-[9px] tracking-[0.4em] uppercase mb-6">Coming Soon</p>
                 <h3 className="font-display text-4xl text-foreground leading-tight mb-4">
                   The Inner<br />
-                  <span className="text-gold">Circle</span>
+                  <span className="text-gold-accent">Circle</span>
                 </h3>
 
                 <div className="space-y-4 text-muted-foreground text-sm leading-relaxed mb-8">

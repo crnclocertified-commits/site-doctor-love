@@ -4,7 +4,7 @@ const FounderStatement = () => {
       <div className="max-w-screen-xl mx-auto px-6 md:px-12">
 
         {/* Label */}
-        <p className="text-gold text-xs tracking-[0.3em] uppercase mb-12 text-center">From the Founder</p>
+        <p className="text-gold-accent text-xs tracking-[0.3em] uppercase mb-12 text-center">From the Founder</p>
 
         <div className="grid md:grid-cols-2 gap-16 items-center">
 
@@ -24,7 +24,7 @@ const FounderStatement = () => {
           {/* Statement */}
           <div className="order-1 md:order-2">
             {/* Opening quote mark */}
-            <div className="font-display text-6xl md:text-8xl text-gold leading-none -mb-2 md:-mb-4 opacity-60 select-none">"</div>
+            <div className="font-display text-6xl md:text-8xl text-gold-accent leading-none -mb-2 md:-mb-4 opacity-60 select-none">"</div>
 
             <blockquote className="font-display text-2xl md:text-4xl text-foreground leading-tight mb-6 md:mb-8">
               ​If there's no roadmap we become the architects          
@@ -44,7 +44,7 @@ const FounderStatement = () => {
 
             {/* Signature */}
             <div className="mt-8 md:mt-10 pt-6 md:pt-8 border-t border-border">
-              <p className="font-display text-xl md:text-2xl text-gold">Jima Dau</p>
+              <p className="font-display text-xl md:text-2xl text-gold-accent">Jima Dau</p>
               <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase mt-1">Founder — Certified Rich Narrative</p>
             </div>
           </div>

@@ -46,7 +46,7 @@ const EvolutionRoadmap = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-3 mb-6">
             <div className="h-px w-10 bg-gold opacity-60" />
-            <span className="text-gold text-xs tracking-[0.35em] uppercase">The Architecture</span>
+            <span className="text-gold-accent text-xs tracking-[0.35em] uppercase">The Architecture</span>
             <div className="h-px w-10 bg-gold opacity-60" />
           </div>
           <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground leading-none mb-4">
@@ -103,7 +103,7 @@ const EvolutionRoadmap = () => {
               </div>
 
               {/* Code + Name */}
-              <p className="font-display text-4xl sm:text-6xl text-gold leading-none mb-1">{col.code}</p>
+              <p className="font-display text-4xl sm:text-6xl text-gold-accent leading-none mb-1">{col.code}</p>
               <p className="font-display text-xl text-foreground mb-1">{col.name}</p>
               <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase mb-6">{col.subtitle}</p>
 
@@ -111,7 +111,7 @@ const EvolutionRoadmap = () => {
               <p className="text-muted-foreground text-sm leading-relaxed mb-4">{col.description}</p>
 
               {/* Design language */}
-              <p className="text-gold/70 text-xs italic mb-6">{col.language}</p>
+              <p className="text-gold-accent/70 text-xs italic mb-6">{col.language}</p>
 
               {/* Items */}
               <ul className="space-y-2 mb-6">
@@ -137,7 +137,7 @@ const EvolutionRoadmap = () => {
           <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase">
             Each collection unlocks when the founder earns it — documented knowledge, proof of profitability, full transparency.
           </p>
-          <p className="text-gold text-xs tracking-[0.15em] mt-2 uppercase">
+          <p className="text-gold-accent text-xs tracking-[0.15em] mt-2 uppercase">
             We don't move forward until we're ready. You'll see it all through Narrative Studio.
           </p>
         </div>

@@ -17,7 +17,7 @@ const BrandStory = () => {
 
         {/* Text */}
         <div>
-          <p className="text-gold text-xs tracking-[0.3em] uppercase mb-4">The Movement</p>
+          <p className="text-gold-accent text-xs tracking-[0.3em] uppercase mb-4">The Movement</p>
           <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground leading-none mb-6 md:mb-8">
             We're Uniquely<br />In This Together.
           </h2>
@@ -35,17 +35,17 @@ const BrandStory = () => {
 
           <div className="mt-10 flex gap-10">
             <div>
-              <p className="font-display text-4xl text-gold">001</p>
+              <p className="font-display text-4xl text-gold-accent">001</p>
               <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">First Chapter</p>
             </div>
             <div className="w-px bg-border" />
             <div>
-              <p className="font-display text-4xl text-gold">AU</p>
+              <p className="font-display text-4xl text-gold-accent">AU</p>
               <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">Made for AU</p>
             </div>
             <div className="w-px bg-border" />
             <div>
-              <p className="font-display text-4xl text-gold">CRN</p>
+              <p className="font-display text-4xl text-gold-accent">CRN</p>
               <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">The Standard</p>
             </div>
           </div>

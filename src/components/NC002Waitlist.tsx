@@ -45,13 +45,13 @@ const NC002Waitlist = () => {
           {/* Chapter badge */}
           <div className="inline-flex items-center gap-3 mb-8">
             <div className="h-px w-10 bg-gold opacity-60" />
-            <span className="text-gold text-xs tracking-[0.35em] uppercase">Coming Next</span>
+            <span className="text-gold-accent text-xs tracking-[0.35em] uppercase">Coming Next</span>
             <div className="h-px w-10 bg-gold opacity-60" />
           </div>
 
           <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground leading-none mb-4">
             The Next<br />
-            <span className="text-gold">Chapter.</span>
+            <span className="text-gold-accent">Chapter.</span>
           </h2>
 
           <p className="text-muted-foreground text-sm tracking-[0.15em] uppercase mb-4">
@@ -64,7 +64,7 @@ const NC002Waitlist = () => {
 
           {submitted ? (
             <div className="border border-gold/40 px-8 py-6 bg-gold/5">
-              <p className="text-gold font-display text-xl mb-1">You're locked in.</p>
+              <p className="text-gold-accent font-display text-xl mb-1">You're locked in.</p>
               <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase">
                 You'll hear from us before the world does.
               </p>

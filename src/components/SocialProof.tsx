@@ -4,7 +4,7 @@ const SocialProof = () => {
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-12">
         {/* Header */}
         <div className="text-center mb-10 md:mb-16">
-          <p className="text-gold text-[10px] sm:text-xs tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-3">Founding Chapter</p>
+          <p className="text-gold-accent text-[10px] sm:text-xs tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-3">Founding Chapter</p>
           <h2 className="font-display text-3xl sm:text-5xl md:text-6xl text-foreground">Be Part of NC001</h2>
           <p className="text-muted-foreground text-sm mt-4 max-w-lg mx-auto leading-relaxed">
             The first drop. The first chapter. Be one of the first to wear it — before everyone else catches on.
@@ -31,7 +31,7 @@ const SocialProof = () => {
             },
           ].map((p, i) => (
             <div key={i} className="surface p-8 border border-border hover:border-gold transition-colors">
-              <p className="text-gold text-2xl mb-5">{p.icon}</p>
+              <p className="text-gold-accent text-2xl mb-5">{p.icon}</p>
               <h3 className="font-display text-2xl text-foreground mb-3">{p.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">{p.body}</p>
             </div>
@@ -46,7 +46,7 @@ const SocialProof = () => {
             { value: "No Restocks", label: "Chapter 001 closes when it's gone" },
           ].map((s, i) => (
             <div key={i} className="text-center">
-              <p className="font-display text-2xl sm:text-4xl md:text-6xl text-gold">{s.value}</p>
+              <p className="font-display text-2xl sm:text-4xl md:text-6xl text-gold-accent">{s.value}</p>
               <p className="text-muted-foreground text-[9px] sm:text-xs tracking-[0.1em] sm:tracking-[0.2em] uppercase mt-1 sm:mt-2">{s.label}</p>
             </div>
           ))}

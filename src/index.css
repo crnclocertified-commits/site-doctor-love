@@ -44,6 +44,7 @@
     /* Custom brand tokens */
     --gold: 237 92% 27%;
     --gold-dim: 237 70% 22%;
+    --gold-accent: 43 72% 52%;
     --surface: 222 44% 10%;
     --surface-raised: 222 40% 13%;
     --sidebar-background: 222 47% 7%;
@@ -85,6 +86,9 @@
 @layer utilities {
   .text-gold {
     color: hsl(var(--gold));
+  }
+  .text-gold-accent {
+    color: hsl(var(--gold-accent));
   }
   .bg-gold {
     background: hsl(var(--gold));

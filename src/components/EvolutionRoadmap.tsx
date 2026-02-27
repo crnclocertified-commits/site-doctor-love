@@ -111,7 +111,7 @@ const EvolutionRoadmap = () => {
               <p className="text-muted-foreground text-sm leading-relaxed mb-4">{col.description}</p>
 
               {/* Design language */}
-              <p className="text-gold/70 text-xs italic mb-6">{col.language}</p>
+              <p className="text-gold-accent/70 text-xs italic mb-6">{col.language}</p>
 
               {/* Items */}
               <ul className="space-y-2 mb-6">

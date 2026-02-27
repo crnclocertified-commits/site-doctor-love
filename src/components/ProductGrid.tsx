@@ -94,7 +94,7 @@ const ProductCard = ({ product }: {product: typeof products[0];}) => {
         <h3 className="text-sm font-semibold text-foreground tracking-wide leading-tight mb-1">{product.name}</h3>
         <p className="text-muted-foreground text-xs italic leading-snug mb-2">{product.manifesto}</p>
         <div className="flex items-baseline gap-2">
-          <p className="text-gold text-sm font-medium">{product.price}</p>
+          <p className="text-gold-accent text-sm font-medium">{product.price}</p>
           <span className="text-muted-foreground text-[9px] tracking-[0.15em] uppercase">{product.priceLabel}</span>
         </div>
       </div>

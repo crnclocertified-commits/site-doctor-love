@@ -29,7 +29,7 @@ const NarrativeStudio = () => {
 
             <h2 className="font-display text-5xl md:text-7xl text-foreground leading-none mb-4">
               Narrative<br />
-              <span className="text-gold-accent">Studio</span>
+              <span className="text-gold">Studio</span>
             </h2>
 
             <p className="text-muted-foreground text-sm tracking-[0.15em] uppercase mb-6">

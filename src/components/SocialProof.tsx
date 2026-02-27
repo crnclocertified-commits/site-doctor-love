@@ -46,7 +46,7 @@ const SocialProof = () => {
             { value: "No Restocks", label: "Chapter 001 closes when it's gone" },
           ].map((s, i) => (
             <div key={i} className="text-center">
-              <p className="font-display text-2xl sm:text-4xl md:text-6xl text-gold">{s.value}</p>
+              <p className="font-display text-2xl sm:text-4xl md:text-6xl text-gold-accent">{s.value}</p>
               <p className="text-muted-foreground text-[9px] sm:text-xs tracking-[0.1em] sm:tracking-[0.2em] uppercase mt-1 sm:mt-2">{s.label}</p>
             </div>
           ))}

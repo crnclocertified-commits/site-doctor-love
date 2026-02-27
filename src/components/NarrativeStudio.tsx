@@ -88,7 +88,7 @@ const NarrativeStudio = () => {
                 <p className="text-gold-accent text-[9px] tracking-[0.4em] uppercase mb-6">Coming Soon</p>
                 <h3 className="font-display text-4xl text-foreground leading-tight mb-4">
                   The Inner<br />
-                  <span className="text-gold">Circle</span>
+                  <span className="text-gold-accent">Circle</span>
                 </h3>
 
                 <div className="space-y-4 text-muted-foreground text-sm leading-relaxed mb-8">

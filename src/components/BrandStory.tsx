@@ -45,7 +45,7 @@ const BrandStory = () => {
             </div>
             <div className="w-px bg-border" />
             <div>
-              <p className="font-display text-4xl text-gold">CRN</p>
+              <p className="font-display text-4xl text-gold-accent">CRN</p>
               <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">The Standard</p>
             </div>
           </div>

@@ -137,7 +137,7 @@ const EvolutionRoadmap = () => {
           <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase">
             Each collection unlocks when the founder earns it — documented knowledge, proof of profitability, full transparency.
           </p>
-          <p className="text-gold text-xs tracking-[0.15em] mt-2 uppercase">
+          <p className="text-gold-accent text-xs tracking-[0.15em] mt-2 uppercase">
             We don't move forward until we're ready. You'll see it all through Narrative Studio.
           </p>
         </div>

@@ -53,14 +53,14 @@
     --sidebar-accent: 222 40% 13%;
     --sidebar-accent-foreground: 0 0% 95%;
     --sidebar-border: 222 35% 18%;
-    --sidebar-ring: 43 72% 52%;
+    --sidebar-ring: 199 82% 62%;
 
     /* Gradients */
     --gradient-hero: linear-gradient(to bottom, hsla(222,47%,7%,0) 0%, hsla(222,47%,7%,0.7) 60%, hsl(222,47%,7%) 100%);
-    --gradient-gold: linear-gradient(135deg, hsl(43,72%,52%), hsl(38,65%,42%));
+    --gradient-gold: linear-gradient(135deg, hsl(199,82%,62%), hsl(199,70%,48%));
 
     /* Shadows */
-    --shadow-gold: 0 0 30px hsla(43,72%,52%,0.25);
+    --shadow-gold: 0 0 30px hsla(199,82%,62%,0.25);
     --shadow-card: 0 4px 24px hsla(0,0%,0%,0.5);
   }
 }

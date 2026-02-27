@@ -85,7 +85,7 @@ const NarrativeStudio = () => {
               />
 
               <div className="relative">
-                <p className="text-gold text-[9px] tracking-[0.4em] uppercase mb-6">Coming Soon</p>
+                <p className="text-gold-accent text-[9px] tracking-[0.4em] uppercase mb-6">Coming Soon</p>
                 <h3 className="font-display text-4xl text-foreground leading-tight mb-4">
                   The Inner<br />
                   <span className="text-gold">Circle</span>

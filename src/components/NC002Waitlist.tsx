@@ -51,7 +51,7 @@ const NC002Waitlist = () => {
 
           <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground leading-none mb-4">
             The Next<br />
-            <span className="text-gold">Chapter.</span>
+            <span className="text-gold-accent">Chapter.</span>
           </h2>
 
           <p className="text-muted-foreground text-sm tracking-[0.15em] uppercase mb-4">

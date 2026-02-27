@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 
 const messages = [
-  "No Blueprint. No Excuses. One Standard. — Free shipping on orders over $150 AUD",
+  "No Blueprint. No Excuses. One Standard.",
   "This isn't a fashion brand. It's a certified record of what you built without help.",
   "Worn by those who stopped waiting for permission. — NC001 available now.",
-  "You didn't get handed a roadmap. Neither did we. — Free shipping over $150 AUD",
+  "You didn't get handed a roadmap. Neither did we.",
 ];
 
 const AnnouncementBar = () => {

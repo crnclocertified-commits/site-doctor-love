@@ -33,7 +33,7 @@ const Hero = () => {
         </h1>
 
         {/* Sub */}
-        <p className="text-muted-foreground text-xs sm:text-sm max-w-lg mb-3 sm:mb-4 px-4 sm:px-0 leading-relaxed font-semibold">
+        <p className="text-muted-foreground text-xs sm:text-sm max-w-lg mb-3 sm:mb-4 px-4 sm:px-0 leading-relaxed font-semibold" style={{ textShadow: '0 0 20px hsla(0,0%,100%,0.15)' }}>
           Clothing for builders, not spectators. Every piece represent a chapter of learning, failure, and growth — wear the process.
         </p>
         <p className="text-muted-foreground/60 text-[10px] sm:text-xs tracking-[0.15em] sm:tracking-[0.2em] uppercase mb-8 sm:mb-10">

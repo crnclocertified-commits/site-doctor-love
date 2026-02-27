@@ -31,7 +31,7 @@ const SocialProof = () => {
             },
           ].map((p, i) => (
             <div key={i} className="surface p-8 border border-border hover:border-gold transition-colors">
-              <p className="text-gold text-2xl mb-5">{p.icon}</p>
+              <p className="text-gold-accent text-2xl mb-5">{p.icon}</p>
               <h3 className="font-display text-2xl text-foreground mb-3">{p.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">{p.body}</p>
             </div>

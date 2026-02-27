@@ -29,7 +29,7 @@ const NarrativeStudio = () => {
 
             <h2 className="font-display text-5xl md:text-7xl text-foreground leading-none mb-4">
               Narrative<br />
-              <span className="text-gold-accent">Studio</span>
+              <span className="text-gold">Studio</span>
             </h2>
 
             <p className="text-muted-foreground text-sm tracking-[0.15em] uppercase mb-6">
@@ -88,7 +88,7 @@ const NarrativeStudio = () => {
                 <p className="text-gold-accent text-[9px] tracking-[0.4em] uppercase mb-6">Coming Soon</p>
                 <h3 className="font-display text-4xl text-foreground leading-tight mb-4">
                   The Inner<br />
-                  <span className="text-gold-accent">Circle</span>
+                  <span className="text-gold">Circle</span>
                 </h3>
 
                 <div className="space-y-4 text-muted-foreground text-sm leading-relaxed mb-8">

@@ -45,7 +45,7 @@ const NC002Waitlist = () => {
           {/* Chapter badge */}
           <div className="inline-flex items-center gap-3 mb-8">
             <div className="h-px w-10 bg-gold opacity-60" />
-            <span className="text-gold text-xs tracking-[0.35em] uppercase">Coming Next</span>
+            <span className="text-gold-accent text-xs tracking-[0.35em] uppercase">Coming Next</span>
             <div className="h-px w-10 bg-gold opacity-60" />
           </div>
 

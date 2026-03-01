@@ -19,9 +19,9 @@ const Newsletter = () => {
       </div>
 
       <div className="relative z-10 max-w-2xl mx-auto px-6 text-center">
-        <p className="text-gold text-xs tracking-[0.3em] uppercase mb-4">Stay in the loop</p>
+        <p className="text-gold-accent text-xs tracking-[0.3em] uppercase mb-4">Stay in the loop</p>
         <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground mb-4">
-          ​Join the Narrative     
+          ​Join the <span className="text-gold">Narrative</span>     
         </h2>
         <p className="text-muted-foreground text-sm leading-relaxed mb-10 max-w-md mx-auto">
           Be first to hear about new chapters, drops, and exclusive releases. No noise — only what matters.

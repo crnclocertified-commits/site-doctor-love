@@ -23,7 +23,7 @@ const NarrativeStudio = () => {
           <div>
             <div className="inline-flex items-center gap-3 mb-6">
               <div className="h-px w-10 bg-gold opacity-60" />
-              <span className="text-gold text-xs tracking-[0.35em] uppercase">The Build, Documented</span>
+              <span className="text-gold-accent text-xs tracking-[0.35em] uppercase">The Build, Documented</span>
               <div className="h-px w-10 bg-gold opacity-60" />
             </div>
 

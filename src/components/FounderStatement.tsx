@@ -4,7 +4,7 @@ const FounderStatement = () => {
       <div className="max-w-screen-xl mx-auto px-6 md:px-12">
 
         {/* Label */}
-        <p className="text-gold text-xs tracking-[0.3em] uppercase mb-12 text-center">From the Founder</p>
+        <p className="text-gold-accent text-xs tracking-[0.3em] uppercase mb-12 text-center">From the Founder</p>
 
         <div className="grid md:grid-cols-2 gap-16 items-center">
 
@@ -27,7 +27,7 @@ const FounderStatement = () => {
             <div className="font-display text-6xl md:text-8xl text-gold-accent leading-none -mb-2 md:-mb-4 opacity-60 select-none">"</div>
 
             <blockquote className="font-display text-2xl md:text-4xl text-foreground leading-tight mb-6 md:mb-8">
-              ​If there's no roadmap we become the architects          
+              ​If there's no roadmap we become the <span className="text-gold">architects</span>          
             </blockquote>
 
             <div className="space-y-4 text-muted-foreground text-sm leading-relaxed">

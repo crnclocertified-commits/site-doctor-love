@@ -49,7 +49,7 @@ const EvolutionRoadmap = () => {
             <span className="text-gold text-xs tracking-[0.35em] uppercase">The Architecture</span>
             <div className="h-px w-10 bg-gold opacity-60" />
           </div>
-          <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-gold leading-none mb-4">
+          <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground leading-none mb-4">
             The Evolution
           </h2>
           <p className="text-muted-foreground text-sm tracking-[0.15em] uppercase max-w-lg mx-auto">

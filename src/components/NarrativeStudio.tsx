@@ -27,7 +27,7 @@ const NarrativeStudio = () => {
               <div className="h-px w-10 bg-gold opacity-60" />
             </div>
 
-            <h2 className="font-display text-5xl md:text-7xl text-gold leading-none mb-4">
+            <h2 className="font-display text-5xl md:text-7xl text-foreground leading-none mb-4">
               Narrative<br />
               <span className="text-gold">Studio</span>
             </h2>

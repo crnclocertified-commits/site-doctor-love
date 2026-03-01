@@ -18,7 +18,7 @@ const BrandStory = () => {
         {/* Text */}
         <div>
           <p className="text-gold text-xs tracking-[0.3em] uppercase mb-4">The Movement</p>
-          <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-gold leading-none mb-6 md:mb-8">
+          <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground leading-none mb-6 md:mb-8">
             We're Uniquely<br />In This Together.
           </h2>
           <div className="space-y-5 text-muted-foreground text-sm leading-relaxed">

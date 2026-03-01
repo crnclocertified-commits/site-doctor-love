@@ -17,18 +17,18 @@ const Hero = () => {
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
         {/* Badge */}
         <div className="flex items-center gap-3 mb-6">
-          <div className="h-px w-8 bg-gold opacity-60" />
+          <div className="h-px w-8 bg-gold-accent opacity-60" />
           <span className="gradient-gold text-primary-foreground text-[10px] tracking-[0.35em] uppercase font-bold px-5 py-2 shadow-gold">
             Chapter 001 — Limited First Run
           </span>
-          <div className="h-px w-8 bg-gold opacity-60" />
+          <div className="h-px w-8 bg-gold-accent opacity-60" />
         </div>
 
         {/* Headline */}
-        <h1 className="font-display text-4xl sm:text-7xl md:text-[10rem] leading-none text-foreground mb-2 sm:mb-4">
+        <h1 className="font-display text-4xl sm:text-7xl md:text-[10rem] leading-none text-foreground mb-2 sm:mb-4" style={{ textShadow: '0 0 40px hsla(0,0%,100%,0.08)' }}>
           The Uniform of
         </h1>
-        <h1 className="font-display text-4xl sm:text-7xl md:text-[10rem] leading-none text-gold mb-6 sm:mb-8">
+        <h1 className="font-display text-4xl sm:text-7xl md:text-[10rem] leading-none text-gold-accent mb-6 sm:mb-8" style={{ textShadow: '0 0 60px hsla(43,72%,52%,0.3)' }}>
           The Self Authored.
         </h1>
 
@@ -37,7 +37,7 @@ const Hero = () => {
           Clothing for builders, not spectators. Every piece represent a chapter of learning, failure, and growth — wear the process.
         </p>
         <p className="text-muted-foreground/60 text-[10px] sm:text-xs tracking-[0.15em] sm:tracking-[0.2em] uppercase mb-8 sm:mb-10">
-          Built Without Guidance — NC001 — Won't Restock
+          The Uniform of The Self Authored — NC001 — Won't Restock
         </p>
 
         {/* CTAs */}

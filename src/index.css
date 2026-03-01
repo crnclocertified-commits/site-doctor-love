@@ -94,6 +94,9 @@
   .bg-gold {
     background: hsl(var(--gold));
   }
+  .bg-gold-accent {
+    background: hsl(var(--gold-accent));
+  }
   .border-gold {
     border-color: hsl(var(--gold));
   }

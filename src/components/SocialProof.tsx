@@ -4,7 +4,7 @@ const SocialProof = () => {
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-12">
         {/* Header */}
         <div className="text-center mb-10 md:mb-16">
-          <p className="text-gold-accent text-[10px] sm:text-xs tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-3">Founding Chapter</p>
+          <p className="text-gold text-[10px] sm:text-xs tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-3">Founding Chapter</p>
           <h2 className="font-display text-3xl sm:text-5xl md:text-6xl text-gold">Be Part of NC001</h2>
           <p className="text-muted-foreground text-sm mt-4 max-w-lg mx-auto leading-relaxed">
             The first drop. The first chapter. Be one of the first to wear it — before everyone else catches on.

@@ -4,7 +4,7 @@ const FounderStatement = () => {
       <div className="max-w-screen-xl mx-auto px-6 md:px-12">
 
         {/* Label */}
-        <p className="text-gold-accent text-xs tracking-[0.3em] uppercase mb-12 text-center">From the Founder</p>
+        <p className="text-gold text-xs tracking-[0.3em] uppercase mb-12 text-center">From the Founder</p>
 
         <div className="grid md:grid-cols-2 gap-16 items-center">
 

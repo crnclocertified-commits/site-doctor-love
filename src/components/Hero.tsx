@@ -28,8 +28,10 @@ const Hero = () => {
         <h1 className="font-display text-4xl sm:text-7xl md:text-[10rem] leading-none text-foreground mb-2 sm:mb-4" style={{ textShadow: '0 0 40px hsla(0,0%,100%,0.08)' }}>
           The Uniform of
         </h1>
-        <h1 className="font-display text-4xl sm:text-7xl md:text-[10rem] leading-none text-gold-accent mb-6 sm:mb-8" style={{ textShadow: '0 0 60px hsla(43,72%,52%,0.3)' }}>
-          The Self Authored.
+        <h1 className="font-display text-4xl sm:text-7xl md:text-[10rem] leading-none mb-6 sm:mb-8">
+          <span className="text-gold-accent" style={{ textShadow: '0 0 60px hsla(43,72%,52%,0.3)' }}>The </span>
+          <span className="text-gold" style={{ textShadow: '0 0 60px hsla(237,92%,27%,0.4)' }}>Self </span>
+          <span className="text-gold-accent" style={{ textShadow: '0 0 60px hsla(43,72%,52%,0.3)' }}>Authored.</span>
         </h1>
 
         {/* Sub */}

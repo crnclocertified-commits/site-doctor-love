@@ -108,8 +108,8 @@ const ProductGrid = () => {
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-8 md:mb-12 gap-4">
         <div>
-          <p className="text-gold-accent text-[10px] sm:text-xs tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-2">Chapter 001 — Built without Guidance</p>
-          <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-gold">​NARRATIVE COLLECTION</h2>
+          <p className="text-gold text-[10px] sm:text-xs tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-2">Chapter 001 — Built without Guidance</p>
+          <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground">​NARRATIVE COLLECTION</h2>
         </div>
         <a
           href="https://certifiedrichnarrative.com.au/collections/nc001"

@@ -9,15 +9,15 @@ const BrandStory = () => {
             style={{
               backgroundImage: "url(\"/lovable-uploads/96305eeb-bfbe-4422-b9ff-53497a7cabf4.jpg\")"
             }} />
-          <div className="absolute -bottom-4 -right-4 w-24 h-24 border border-gold-accent opacity-40" />
-          <div className="absolute -top-4 -left-4 w-12 h-12 border border-gold-accent opacity-20" />
+          <div className="absolute -bottom-4 -right-4 w-24 h-24 border border-foreground/10" />
+          <div className="absolute -top-4 -left-4 w-12 h-12 border border-foreground/5" />
         </div>
 
         {/* Text */}
         <div>
-          <p className="text-gold-accent text-xs tracking-[0.3em] uppercase mb-4">The Movement</p>
+          <p className="text-foreground/40 text-xs tracking-[0.3em] uppercase mb-4">The Movement</p>
           <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground leading-none mb-6 md:mb-8">
-            We're <span className="text-gold">Uniquely</span><br />In This Together.
+            We're Uniquely<br />In This Together.
           </h2>
           <div className="space-y-5 text-muted-foreground text-sm leading-relaxed">
             <p>
@@ -33,17 +33,17 @@ const BrandStory = () => {
 
           <div className="mt-10 flex gap-10">
             <div>
-              <p className="font-display text-4xl text-gold-accent">001</p>
+              <p className="font-display text-4xl text-foreground">001</p>
               <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">First Chapter</p>
             </div>
             <div className="w-px bg-border" />
             <div>
-              <p className="font-display text-4xl text-gold-accent">AU</p>
+              <p className="font-display text-4xl text-foreground">AU</p>
               <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">Made for AU</p>
             </div>
             <div className="w-px bg-border" />
             <div>
-              <p className="font-display text-4xl text-gold-accent">CRN</p>
+              <p className="font-display text-4xl text-foreground">CRN</p>
               <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mt-1">The Standard</p>
             </div>
           </div>
@@ -52,7 +52,7 @@ const BrandStory = () => {
             href="https://certifiedrichnarrative.com.au/collections/nc001"
             target="_blank"
             rel="noreferrer"
-            className="inline-block mt-10 gradient-cta text-background font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:opacity-90 transition-all shadow-cta">
+            className="inline-block mt-10 bg-foreground text-background font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:bg-foreground/90 transition-all">
             Shop the Story
           </a>
         </div>

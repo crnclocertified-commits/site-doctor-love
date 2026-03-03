@@ -11,34 +11,32 @@ const Hero = () => {
 
       {/* Overlay gradient */}
       <div className="absolute inset-0" style={{ background: "var(--gradient-hero)" }} />
-      <div className="absolute inset-0 bg-background/50" />
+      <div className="absolute inset-0 bg-background/60" />
 
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
         {/* Badge */}
         <div className="flex items-center gap-3 mb-6">
-          <div className="h-px w-8 bg-gold-accent opacity-60" />
-          <span className="gradient-gold text-primary-foreground text-[10px] tracking-[0.35em] uppercase font-bold px-5 py-2 shadow-gold">
+          <div className="h-px w-8 bg-foreground/20" />
+          <span className="bg-foreground text-background text-[10px] tracking-[0.35em] uppercase font-bold px-5 py-2">
             Chapter 001 — Limited First Run
           </span>
-          <div className="h-px w-8 bg-gold-accent opacity-60" />
+          <div className="h-px w-8 bg-foreground/20" />
         </div>
 
         {/* Headline */}
-        <h1 className="font-display text-4xl sm:text-7xl md:text-[10rem] leading-none text-foreground mb-2 sm:mb-4" style={{ textShadow: '0 0 40px hsla(0,0%,100%,0.08)' }}>
+        <h1 className="font-display text-4xl sm:text-7xl md:text-[10rem] leading-none text-foreground mb-2 sm:mb-4">
           The Uniform of
         </h1>
-        <h1 className="font-display text-4xl sm:text-7xl md:text-[10rem] leading-none mb-6 sm:mb-8">
-          <span className="text-gold-accent" style={{ textShadow: '0 0 60px hsla(43,72%,52%,0.3)' }}>The </span>
-          <span className="text-gold" style={{ textShadow: '0 0 60px hsla(237,92%,27%,0.4)' }}>Self </span>
-          <span className="text-gold-accent" style={{ textShadow: '0 0 60px hsla(43,72%,52%,0.3)' }}>Authored.</span>
+        <h1 className="font-display text-4xl sm:text-7xl md:text-[10rem] leading-none text-foreground mb-6 sm:mb-8">
+          The Self Authored.
         </h1>
 
         {/* Sub */}
-        <p className="text-muted-foreground text-xs sm:text-sm max-w-lg mb-3 sm:mb-4 px-4 sm:px-0 leading-relaxed font-semibold" style={{ textShadow: '0 0 20px hsla(0,0%,100%,0.15)' }}>
+        <p className="text-foreground/70 text-xs sm:text-sm max-w-lg mb-3 sm:mb-4 px-4 sm:px-0 leading-relaxed font-medium">
           Clothing for builders, not spectators. Every piece represent a chapter of learning, failure, and growth — wear the process.
         </p>
-        <p className="text-muted-foreground/60 text-[10px] sm:text-xs tracking-[0.15em] sm:tracking-[0.2em] uppercase mb-8 sm:mb-10">
+        <p className="text-foreground/40 text-[10px] sm:text-xs tracking-[0.15em] sm:tracking-[0.2em] uppercase mb-8 sm:mb-10">
           The Uniform of The Self Authored — NC001 — Won't Restock
         </p>
 
@@ -48,13 +46,13 @@ const Hero = () => {
             href="https://certifiedrichnarrative.com.au/collections/nc001"
             target="_blank"
             rel="noreferrer"
-            className="gradient-cta text-background font-semibold text-[11px] sm:text-xs tracking-[0.2em] sm:tracking-[0.25em] uppercase px-8 sm:px-10 py-4 hover:opacity-90 transition-all shadow-cta w-full sm:w-auto text-center"
+            className="bg-foreground text-background font-semibold text-[11px] sm:text-xs tracking-[0.2em] sm:tracking-[0.25em] uppercase px-8 sm:px-10 py-4 hover:bg-foreground/90 transition-all w-full sm:w-auto text-center"
           >
             Secure Yours — NC001
           </a>
           <a
             href="/our-story"
-            className="border border-foreground/30 text-foreground text-[11px] sm:text-xs tracking-[0.2em] sm:tracking-[0.25em] uppercase px-8 sm:px-10 py-4 hover:border-gold-accent hover:text-gold-accent transition-all w-full sm:w-auto text-center"
+            className="border border-foreground/30 text-foreground text-[11px] sm:text-xs tracking-[0.2em] sm:tracking-[0.25em] uppercase px-8 sm:px-10 py-4 hover:border-foreground hover:text-foreground transition-all w-full sm:w-auto text-center"
           >
             Read the Story
           </a>

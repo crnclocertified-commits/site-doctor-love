@@ -25,32 +25,19 @@ const NC002Waitlist = () => {
     <section className="py-16 md:py-24 border-t border-border relative overflow-hidden">
       {/* Background texture */}
       <div className="absolute inset-0 bg-secondary/20 pointer-events-none" />
-      <div
-        className="absolute inset-0 opacity-5 pointer-events-none"
-        style={{
-          backgroundImage: `repeating-linear-gradient(
-            45deg,
-            hsl(var(--gold)) 0px,
-            hsl(var(--gold)) 1px,
-            transparent 1px,
-            transparent 60px
-          )`,
-        }}
-      />
 
       <div className="relative max-w-screen-xl mx-auto px-6 md:px-12">
         <div className="max-w-2xl mx-auto text-center">
 
           {/* Chapter badge */}
           <div className="inline-flex items-center gap-3 mb-8">
-            <div className="h-px w-10 bg-gold-accent opacity-60" />
-            <span className="text-gold-accent text-xs tracking-[0.35em] uppercase">Coming Next</span>
-            <div className="h-px w-10 bg-gold-accent opacity-60" />
+            <div className="h-px w-10 bg-foreground/15" />
+            <span className="text-foreground/40 text-xs tracking-[0.35em] uppercase">Coming Next</span>
+            <div className="h-px w-10 bg-foreground/15" />
           </div>
 
           <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground leading-none mb-4">
-            The Next<br />
-            <span className="text-gold">Chapter.</span>
+            The Next<br />Chapter.
           </h2>
 
           <p className="text-muted-foreground text-sm tracking-[0.15em] uppercase mb-4">
@@ -62,8 +49,8 @@ const NC002Waitlist = () => {
           </p>
 
           {submitted ? (
-            <div className="border border-gold-accent/40 px-8 py-6 bg-gold-accent/5">
-              <p className="text-gold-accent font-display text-xl mb-1">You're locked in.</p>
+            <div className="border border-foreground/20 px-8 py-6 bg-foreground/5">
+              <p className="text-foreground font-display text-xl mb-1">You're locked in.</p>
               <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase">
                 You'll hear from us before the world does.
               </p>
@@ -80,7 +67,7 @@ const NC002Waitlist = () => {
                     if (error) setError("");
                   }}
                   maxLength={255}
-                  className="w-full bg-secondary border border-border text-foreground placeholder:text-muted-foreground text-sm px-5 py-4 focus:outline-none focus:border-gold-accent/60 transition-colors"
+                  className="w-full bg-secondary border border-border text-foreground placeholder:text-muted-foreground text-sm px-5 py-4 focus:outline-none focus:border-foreground/30 transition-colors"
                   aria-label="Email address for NC002 waitlist"
                 />
                 {error && (
@@ -89,7 +76,7 @@ const NC002Waitlist = () => {
               </div>
               <button
                 type="submit"
-                className="gradient-cta text-background font-semibold text-xs tracking-[0.25em] uppercase px-8 py-4 hover:opacity-90 transition-all shadow-cta whitespace-nowrap"
+                className="bg-foreground text-background font-semibold text-xs tracking-[0.25em] uppercase px-8 py-4 hover:bg-foreground/90 transition-all whitespace-nowrap"
               >
                 Be First
               </button>

@@ -13,22 +13,17 @@ const Newsletter = () => {
 
   return (
     <section className="py-16 md:py-24 border-t border-border relative overflow-hidden">
-      {/* Background accent */}
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] rounded-full bg-gold-accent opacity-[0.04] blur-3xl" />
-      </div>
-
       <div className="relative z-10 max-w-2xl mx-auto px-6 text-center">
-        <p className="text-gold-accent text-xs tracking-[0.3em] uppercase mb-4">Stay in the loop</p>
+        <p className="text-foreground/40 text-xs tracking-[0.3em] uppercase mb-4">Stay in the loop</p>
         <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground mb-4">
-          ​Join the <span className="text-gold">Narrative</span>     
+          ​Join the Narrative     
         </h2>
         <p className="text-muted-foreground text-sm leading-relaxed mb-10 max-w-md mx-auto">
           Be first to hear about new chapters, drops, and exclusive releases. No noise — only what matters.
         </p>
 
         {submitted ?
-        <div className="border border-gold-accent text-gold-accent text-sm tracking-[0.1em] py-4 px-8 inline-block">
+        <div className="border border-foreground/20 text-foreground text-sm tracking-[0.1em] py-4 px-8 inline-block">
             ✓ You're in. Welcome to the narrative.
           </div> :
 
@@ -39,11 +34,11 @@ const Newsletter = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Your email address"
-            className="flex-1 bg-muted border border-border text-foreground placeholder:text-muted-foreground text-sm px-6 py-4 outline-none focus:border-gold-accent transition-colors" />
+            className="flex-1 bg-muted border border-border text-foreground placeholder:text-muted-foreground text-sm px-6 py-4 outline-none focus:border-foreground/30 transition-colors" />
 
             <button
             type="submit"
-            className="gradient-cta text-background font-semibold text-xs tracking-[0.25em] uppercase px-8 py-4 hover:opacity-90 transition-all whitespace-nowrap">
+            className="bg-foreground text-background font-semibold text-xs tracking-[0.25em] uppercase px-8 py-4 hover:bg-foreground/90 transition-all whitespace-nowrap">
               Join Now
             </button>
           </form>

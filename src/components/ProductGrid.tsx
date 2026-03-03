@@ -77,14 +77,13 @@ const ProductCard = ({ product }: {product: typeof products[0];}) => {
           alt={product.name + " back"}
           className="absolute inset-0 w-full h-full object-cover opacity-0 scale-105 transition-all duration-700 group-hover:opacity-100 group-hover:scale-100" />
 
-
         {/* Tag */}
         <span className="absolute top-3 left-3 bg-background/80 backdrop-blur-sm text-foreground text-[10px] tracking-[0.2em] uppercase px-3 py-1">
           {product.tag}
         </span>
 
         {/* Quick shop */}
-        <div className="absolute bottom-0 left-0 right-0 bg-gold text-primary-foreground text-xs tracking-[0.2em] uppercase font-semibold text-center py-3 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+        <div className="absolute bottom-0 left-0 right-0 bg-gold-accent text-background text-xs tracking-[0.2em] uppercase font-semibold text-center py-3 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
           Shop Now
         </div>
       </div>
@@ -115,8 +114,7 @@ const ProductGrid = () => {
           href="https://certifiedrichnarrative.com.au/collections/nc001"
           target="_blank"
           rel="noreferrer"
-          className="border border-border text-foreground text-xs tracking-[0.2em] uppercase px-8 py-3 hover:border-gold hover:text-gold transition-all self-start md:self-auto">
-
+          className="border border-border text-foreground text-xs tracking-[0.2em] uppercase px-8 py-3 hover:border-gold-accent hover:text-gold-accent transition-all self-start md:self-auto">
           View All
         </a>
       </div>

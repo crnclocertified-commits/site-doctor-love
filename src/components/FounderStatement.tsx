@@ -15,15 +15,12 @@ const FounderStatement = () => {
               style={{
                 backgroundImage: `url(https://certifiedrichnarrative.com.au/cdn/shop/files/IMG_0420.jpg?v=1770938911&width=1200)`
               }} />
-
-            {/* Corner accents */}
-            <div className="absolute -bottom-4 -left-4 w-20 h-20 border border-gold opacity-40" />
-            <div className="absolute -top-4 -right-4 w-10 h-10 border border-gold opacity-20" />
+            <div className="absolute -bottom-4 -left-4 w-20 h-20 border border-gold-accent opacity-40" />
+            <div className="absolute -top-4 -right-4 w-10 h-10 border border-gold-accent opacity-20" />
           </div>
 
           {/* Statement */}
           <div className="order-1 md:order-2">
-            {/* Opening quote mark */}
             <div className="font-display text-6xl md:text-8xl text-gold-accent leading-none -mb-2 md:-mb-4 opacity-60 select-none">"</div>
 
             <blockquote className="font-display text-2xl md:text-4xl text-foreground leading-tight mb-6 md:mb-8">
@@ -52,7 +49,6 @@ const FounderStatement = () => {
         </div>
       </div>
     </section>);
-
 };
 
 export default FounderStatement;

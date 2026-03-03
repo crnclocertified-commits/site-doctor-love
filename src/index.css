@@ -2,70 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Certified Rich Narrative — Premium Streetwear Design System */
+/* Certified Rich Narrative — Controlled Depth Design System */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 @layer base {
   :root {
-    /* Core palette — dark navy premium streetwear */
+    /* Foundation — Midnight Navy + Off-White */
     --background: 222 47% 7%;
-    --foreground: 0 0% 95%;
+    --foreground: 40 20% 92%;
 
     --card: 222 44% 10%;
-    --card-foreground: 0 0% 95%;
+    --card-foreground: 40 20% 92%;
 
     --popover: 222 44% 10%;
-    --popover-foreground: 0 0% 95%;
+    --popover-foreground: 40 20% 92%;
 
-    /* Blue — primary CTA color */
-    --primary: 237 92% 27%;
-    --primary-foreground: 0 0% 95%;
+    /* Primary — Off-White for CTAs (controlled contrast) */
+    --primary: 40 20% 92%;
+    --primary-foreground: 222 47% 7%;
 
     /* Dark navy surface */
     --secondary: 222 40% 13%;
-    --secondary-foreground: 0 0% 95%;
+    --secondary-foreground: 40 20% 92%;
 
     --muted: 222 38% 15%;
-    --muted-foreground: 220 15% 55%;
+    --muted-foreground: 220 15% 50%;
 
-    --accent: 237 92% 27%;
-    --accent-foreground: 0 0% 95%;
+    --accent: 222 40% 16%;
+    --accent-foreground: 40 20% 92%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 95%;
+    --destructive-foreground: 40 20% 92%;
 
-    --border: 222 35% 18%;
-    --input: 222 35% 18%;
-    --ring: 237 92% 27%;
+    --border: 222 30% 16%;
+    --input: 222 30% 16%;
+    --ring: 40 20% 92%;
 
     --radius: 0rem;
 
-    /* Custom brand tokens */
-    --gold: 237 92% 27%;
-    --gold-dim: 237 70% 22%;
-    --gold-accent: 43 72% 52%;
+    /* Flagship colours — strategic use only */
+    --flagship-red: 0 72% 50%;
+    --flagship-blue: 220 80% 50%;
+    --flagship-green: 150 60% 40%;
+
+    /* Surface tokens */
     --surface: 222 44% 10%;
     --surface-raised: 222 40% 13%;
+
+    /* Sidebar */
     --sidebar-background: 222 47% 7%;
-    --sidebar-foreground: 0 0% 95%;
-    --sidebar-primary: 237 92% 27%;
-    --sidebar-primary-foreground: 0 0% 95%;
+    --sidebar-foreground: 40 20% 92%;
+    --sidebar-primary: 40 20% 92%;
+    --sidebar-primary-foreground: 222 47% 7%;
     --sidebar-accent: 222 40% 13%;
-    --sidebar-accent-foreground: 0 0% 95%;
-    --sidebar-border: 222 35% 18%;
-    --sidebar-ring: 237 92% 27%;
+    --sidebar-accent-foreground: 40 20% 92%;
+    --sidebar-border: 222 30% 16%;
+    --sidebar-ring: 40 20% 92%;
 
     /* Gradients */
     --gradient-hero: linear-gradient(to bottom, hsla(222,47%,7%,0) 0%, hsla(222,47%,7%,0.6) 50%, hsl(222,47%,7%) 100%);
-    --gradient-gold: linear-gradient(135deg, hsl(237,92%,27%), hsl(237,80%,20%));
-    --gradient-cta: linear-gradient(135deg, hsl(43,72%,52%), hsl(38,80%,45%));
 
     /* Shadows */
-    --shadow-gold: 0 0 30px hsla(237,92%,27%,0.35);
-    --shadow-gold-accent: 0 0 40px hsla(43,72%,52%,0.25);
-    --shadow-cta: 0 4px 20px hsla(43,72%,52%,0.35);
     --shadow-card: 0 4px 24px hsla(0,0%,0%,0.5);
+    --shadow-subtle: 0 0 30px hsla(220,80%,50%,0.08);
   }
 }
 
@@ -87,53 +87,43 @@
 }
 
 @layer utilities {
-  .text-gold {
-    color: hsl(var(--gold));
+  .text-flagship-red {
+    color: hsl(var(--flagship-red));
   }
-  .text-gold-accent {
-    color: hsl(var(--gold-accent));
+  .text-flagship-blue {
+    color: hsl(var(--flagship-blue));
   }
-  .bg-gold {
-    background: hsl(var(--gold));
+  .text-flagship-green {
+    color: hsl(var(--flagship-green));
   }
-  .bg-gold-accent {
-    background: hsl(var(--gold-accent));
+  .bg-flagship-red {
+    background: hsl(var(--flagship-red));
   }
-  .border-gold {
-    border-color: hsl(var(--gold));
+  .bg-flagship-blue {
+    background: hsl(var(--flagship-blue));
+  }
+  .bg-flagship-green {
+    background: hsl(var(--flagship-green));
+  }
+  .border-flagship-red {
+    border-color: hsl(var(--flagship-red));
+  }
+  .border-flagship-blue {
+    border-color: hsl(var(--flagship-blue));
   }
   .gradient-hero {
     background: var(--gradient-hero);
   }
-  .gradient-gold {
-    background: var(--gradient-gold);
-  }
-  .gradient-cta {
-    background: var(--gradient-cta);
-  }
-  .shadow-gold {
-    box-shadow: var(--shadow-gold);
-  }
-  .shadow-cta {
-    box-shadow: var(--shadow-cta);
-  }
   .shadow-card {
     box-shadow: var(--shadow-card);
+  }
+  .shadow-subtle {
+    box-shadow: var(--shadow-subtle);
   }
   .surface {
     background: hsl(var(--surface));
   }
   .surface-raised {
     background: hsl(var(--surface-raised));
-  }
-}
-
-@layer base {
-  * {
-    @apply border-border;
-  }
-
-  body {
-    @apply bg-background text-foreground;
   }
 }

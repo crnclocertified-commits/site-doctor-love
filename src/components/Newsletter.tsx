@@ -15,7 +15,7 @@ const Newsletter = () => {
     <section className="py-16 md:py-24 border-t border-border relative overflow-hidden">
       {/* Background accent */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] rounded-full bg-gold opacity-[0.04] blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[300px] rounded-full bg-gold-accent opacity-[0.04] blur-3xl" />
       </div>
 
       <div className="relative z-10 max-w-2xl mx-auto px-6 text-center">
@@ -28,7 +28,7 @@ const Newsletter = () => {
         </p>
 
         {submitted ?
-        <div className="border border-gold text-gold text-sm tracking-[0.1em] py-4 px-8 inline-block">
+        <div className="border border-gold-accent text-gold-accent text-sm tracking-[0.1em] py-4 px-8 inline-block">
             ✓ You're in. Welcome to the narrative.
           </div> :
 
@@ -39,12 +39,11 @@ const Newsletter = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Your email address"
-            className="flex-1 bg-muted border border-border text-foreground placeholder:text-muted-foreground text-sm px-6 py-4 outline-none focus:border-gold transition-colors" />
+            className="flex-1 bg-muted border border-border text-foreground placeholder:text-muted-foreground text-sm px-6 py-4 outline-none focus:border-gold-accent transition-colors" />
 
             <button
             type="submit"
-            className="gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-8 py-4 hover:opacity-90 transition-all whitespace-nowrap">
-
+            className="gradient-cta text-background font-semibold text-xs tracking-[0.25em] uppercase px-8 py-4 hover:opacity-90 transition-all whitespace-nowrap">
               Join Now
             </button>
           </form>
@@ -53,7 +52,6 @@ const Newsletter = () => {
         <p className="text-muted-foreground text-xs mt-4 tracking-wide">No spam. Unsubscribe anytime.</p>
       </div>
     </section>);
-
 };
 
 export default Newsletter;

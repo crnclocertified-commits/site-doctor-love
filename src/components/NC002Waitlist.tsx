@@ -18,7 +18,6 @@ const NC002Waitlist = () => {
       return;
     }
 
-    // Submission placeholder — wire to backend when ready
     setSubmitted(true);
   };
 
@@ -44,9 +43,9 @@ const NC002Waitlist = () => {
 
           {/* Chapter badge */}
           <div className="inline-flex items-center gap-3 mb-8">
-            <div className="h-px w-10 bg-gold opacity-60" />
+            <div className="h-px w-10 bg-gold-accent opacity-60" />
             <span className="text-gold-accent text-xs tracking-[0.35em] uppercase">Coming Next</span>
-            <div className="h-px w-10 bg-gold opacity-60" />
+            <div className="h-px w-10 bg-gold-accent opacity-60" />
           </div>
 
           <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground leading-none mb-4">
@@ -63,7 +62,7 @@ const NC002Waitlist = () => {
           </p>
 
           {submitted ? (
-            <div className="border border-gold/40 px-8 py-6 bg-gold/5">
+            <div className="border border-gold-accent/40 px-8 py-6 bg-gold-accent/5">
               <p className="text-gold-accent font-display text-xl mb-1">You're locked in.</p>
               <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase">
                 You'll hear from us before the world does.
@@ -81,7 +80,7 @@ const NC002Waitlist = () => {
                     if (error) setError("");
                   }}
                   maxLength={255}
-                  className="w-full bg-secondary border border-border text-foreground placeholder:text-muted-foreground text-sm px-5 py-4 focus:outline-none focus:border-gold/60 transition-colors"
+                  className="w-full bg-secondary border border-border text-foreground placeholder:text-muted-foreground text-sm px-5 py-4 focus:outline-none focus:border-gold-accent/60 transition-colors"
                   aria-label="Email address for NC002 waitlist"
                 />
                 {error && (
@@ -90,7 +89,7 @@ const NC002Waitlist = () => {
               </div>
               <button
                 type="submit"
-                className="gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-8 py-4 hover:opacity-90 transition-all shadow-gold whitespace-nowrap"
+                className="gradient-cta text-background font-semibold text-xs tracking-[0.25em] uppercase px-8 py-4 hover:opacity-90 transition-all shadow-cta whitespace-nowrap"
               >
                 Be First
               </button>

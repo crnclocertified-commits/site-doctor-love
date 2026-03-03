@@ -30,7 +30,7 @@ const SocialProof = () => {
               body: "The next chapter ships in full CRN branded packaging. Join the waitlist and be first when NC002 drops.",
             },
           ].map((p, i) => (
-            <div key={i} className="surface p-8 border border-border hover:border-gold transition-colors">
+            <div key={i} className="surface p-8 border border-border hover:border-gold-accent/50 transition-colors">
               <p className="text-gold-accent text-2xl mb-5">{p.icon}</p>
               <h3 className="font-display text-2xl text-foreground mb-3">{p.title}</h3>
               <p className="text-muted-foreground text-sm leading-relaxed">{p.body}</p>
@@ -58,7 +58,7 @@ const SocialProof = () => {
             href="https://certifiedrichnarrative.com.au/collections/nc001"
             target="_blank"
             rel="noreferrer"
-            className="inline-block gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-12 py-4 hover:opacity-90 transition-all shadow-gold"
+            className="inline-block gradient-cta text-background font-semibold text-xs tracking-[0.25em] uppercase px-12 py-4 hover:opacity-90 transition-all shadow-cta"
           >
             Claim Your Founding Piece
           </a>

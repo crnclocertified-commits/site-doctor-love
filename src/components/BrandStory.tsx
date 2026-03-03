@@ -9,10 +9,8 @@ const BrandStory = () => {
             style={{
               backgroundImage: "url(\"/lovable-uploads/96305eeb-bfbe-4422-b9ff-53497a7cabf4.jpg\")"
             }} />
-
-          {/* Gold accent line */}
-          <div className="absolute -bottom-4 -right-4 w-24 h-24 border border-gold opacity-60" />
-          <div className="absolute -top-4 -left-4 w-12 h-12 border border-gold opacity-30" />
+          <div className="absolute -bottom-4 -right-4 w-24 h-24 border border-gold-accent opacity-40" />
+          <div className="absolute -top-4 -left-4 w-12 h-12 border border-gold-accent opacity-20" />
         </div>
 
         {/* Text */}
@@ -54,14 +52,12 @@ const BrandStory = () => {
             href="https://certifiedrichnarrative.com.au/collections/nc001"
             target="_blank"
             rel="noreferrer"
-            className="inline-block mt-10 gradient-gold text-primary-foreground font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:opacity-90 transition-all shadow-gold">
-
+            className="inline-block mt-10 gradient-cta text-background font-semibold text-xs tracking-[0.25em] uppercase px-10 py-4 hover:opacity-90 transition-all shadow-cta">
             Shop the Story
           </a>
         </div>
       </div>
     </section>);
-
 };
 
 export default BrandStory;

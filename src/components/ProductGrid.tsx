@@ -83,7 +83,7 @@ const ProductCard = ({ product }: {product: typeof products[0];}) => {
         </span>
 
         {/* Quick shop */}
-        <div className="absolute bottom-0 left-0 right-0 bg-gold-accent text-background text-xs tracking-[0.2em] uppercase font-semibold text-center py-3 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+        <div className="absolute bottom-0 left-0 right-0 bg-foreground text-background text-xs tracking-[0.2em] uppercase font-semibold text-center py-3 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
           Shop Now
         </div>
       </div>
@@ -93,7 +93,7 @@ const ProductCard = ({ product }: {product: typeof products[0];}) => {
         <h3 className="text-sm font-semibold text-foreground tracking-wide leading-tight mb-1">{product.name}</h3>
         <p className="text-muted-foreground text-xs italic leading-snug mb-2">{product.manifesto}</p>
         <div className="flex items-baseline gap-2">
-          <p className="text-gold-accent text-sm font-medium">{product.price}</p>
+          <p className="text-foreground text-sm font-medium">{product.price}</p>
           <span className="text-muted-foreground text-[9px] tracking-[0.15em] uppercase">{product.priceLabel}</span>
         </div>
       </div>
@@ -107,14 +107,14 @@ const ProductGrid = () => {
       {/* Header */}
       <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-8 md:mb-12 gap-4">
         <div>
-          <p className="text-gold-accent text-[10px] sm:text-xs tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-2">Chapter 001 — Built without Guidance</p>
-          <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground">​NARRATIVE <span className="text-gold">COLLECTION</span></h2>
+          <p className="text-foreground/40 text-[10px] sm:text-xs tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-2">Chapter 001 — Built without Guidance</p>
+          <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground">​NARRATIVE COLLECTION</h2>
         </div>
         <a
           href="https://certifiedrichnarrative.com.au/collections/nc001"
           target="_blank"
           rel="noreferrer"
-          className="border border-border text-foreground text-xs tracking-[0.2em] uppercase px-8 py-3 hover:border-gold-accent hover:text-gold-accent transition-all self-start md:self-auto">
+          className="border border-border text-foreground text-xs tracking-[0.2em] uppercase px-8 py-3 hover:border-foreground/40 transition-all self-start md:self-auto">
           View All
         </a>
       </div>

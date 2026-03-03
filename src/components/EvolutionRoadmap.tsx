@@ -45,12 +45,12 @@ const EvolutionRoadmap = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-3 mb-6">
-            <div className="h-px w-10 bg-gold-accent opacity-60" />
-            <span className="text-gold-accent text-xs tracking-[0.35em] uppercase">The Architecture</span>
-            <div className="h-px w-10 bg-gold-accent opacity-60" />
+            <div className="h-px w-10 bg-foreground/15" />
+            <span className="text-foreground/40 text-xs tracking-[0.35em] uppercase">The Architecture</span>
+            <div className="h-px w-10 bg-foreground/15" />
           </div>
           <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-foreground leading-none mb-4">
-            The <span className="text-gold">Evolution</span>
+            The Evolution
           </h2>
           <p className="text-muted-foreground text-sm tracking-[0.15em] uppercase max-w-lg mx-auto">
             Three collections. Three stages of becoming. You don't just wear CRNCLO — you evolve with it.
@@ -62,11 +62,11 @@ const EvolutionRoadmap = () => {
           {collections.map((col, i) => (
             <div key={col.code} className="flex items-center">
               <div
-                className={`w-3 h-3 border ${col.status === "active" ? "bg-gold-accent border-gold-accent" : "border-border bg-background"}`}
+                className={`w-3 h-3 border ${col.status === "active" ? "bg-foreground border-foreground" : "border-border bg-background"}`}
                 style={{ transform: "rotate(45deg)" }}
               />
               {i < collections.length - 1 && (
-                <div className={`h-px w-32 lg:w-48 ${i === 0 ? "bg-gold-accent/40" : "bg-border/40"}`} />
+                <div className={`h-px w-32 lg:w-48 ${i === 0 ? "bg-foreground/20" : "bg-border/40"}`} />
               )}
             </div>
           ))}
@@ -79,17 +79,16 @@ const EvolutionRoadmap = () => {
               key={col.code}
               className={`relative p-8 border transition-all ${
                 col.status === "active"
-                  ? "border-gold-accent/40 bg-secondary/40"
+                  ? "border-foreground/20 bg-secondary/40"
                   : "border-border bg-secondary/10 opacity-70"
               }`}
-              style={col.status === "active" ? { boxShadow: "var(--shadow-gold-accent)" } : {}}
             >
               {/* Status tag */}
               <div className="flex items-center justify-between mb-6">
                 <span
                   className={`text-[9px] tracking-[0.3em] uppercase px-3 py-1 ${
                     col.status === "active"
-                      ? "gradient-cta text-background"
+                      ? "bg-foreground text-background"
                       : "border border-border text-muted-foreground"
                   }`}
                 >
@@ -103,7 +102,7 @@ const EvolutionRoadmap = () => {
               </div>
 
               {/* Code + Name */}
-              <p className="font-display text-4xl sm:text-6xl text-gold-accent leading-none mb-1">{col.code}</p>
+              <p className="font-display text-4xl sm:text-6xl text-foreground leading-none mb-1">{col.code}</p>
               <p className="font-display text-xl text-foreground mb-1">{col.name}</p>
               <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase mb-6">{col.subtitle}</p>
 
@@ -111,13 +110,13 @@ const EvolutionRoadmap = () => {
               <p className="text-muted-foreground text-sm leading-relaxed mb-4">{col.description}</p>
 
               {/* Design language */}
-              <p className="text-gold-accent/70 text-xs italic mb-6">{col.language}</p>
+              <p className="text-foreground/40 text-xs italic mb-6">{col.language}</p>
 
               {/* Items */}
               <ul className="space-y-2 mb-6">
                 {col.items.map((item) => (
                   <li key={item} className="flex items-center gap-3 text-xs text-muted-foreground tracking-wide">
-                    <div className={`w-1 h-1 ${col.status === "active" ? "bg-gold-accent" : "bg-border"} flex-shrink-0`} />
+                    <div className={`w-1 h-1 ${col.status === "active" ? "bg-foreground/40" : "bg-border"} flex-shrink-0`} />
                     {item}
                   </li>
                 ))}
@@ -137,7 +136,7 @@ const EvolutionRoadmap = () => {
           <p className="text-muted-foreground text-xs tracking-[0.2em] uppercase">
             Each collection unlocks when the founder earns it — documented knowledge, proof of profitability, full transparency.
           </p>
-          <p className="text-gold-accent text-xs tracking-[0.15em] mt-2 uppercase">
+          <p className="text-foreground/50 text-xs tracking-[0.15em] mt-2 uppercase">
             We don't move forward until we're ready. You'll see it all through Narrative Studio.
           </p>
         </div>

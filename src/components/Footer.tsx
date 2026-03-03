@@ -25,7 +25,7 @@ const Footer = () => {
                 { name: "All Products", url: "https://certifiedrichnarrative.com.au/collections/all" },
               ].map((item) => (
                 <li key={item.name}>
-                  <a href={item.url} target="_blank" rel="noreferrer" className="text-muted-foreground text-xs hover:text-gold-accent transition-colors">
+                  <a href={item.url} target="_blank" rel="noreferrer" className="text-muted-foreground text-xs hover:text-foreground transition-colors">
                     {item.name}
                   </a>
                 </li>
@@ -45,7 +45,7 @@ const Footer = () => {
                 { name: "FAQ", path: "/faq" },
               ].map((item) => (
                 <li key={item.name}>
-                  <a href={item.path} className="text-muted-foreground text-xs hover:text-gold-accent transition-colors">
+                  <a href={item.path} className="text-muted-foreground text-xs hover:text-foreground transition-colors">
                     {item.name}
                   </a>
                 </li>
@@ -64,7 +64,7 @@ const Footer = () => {
                 { name: "YouTube", url: "https://youtube.com/@certifiedrichnarrative" },
               ].map((s) => (
                 <li key={s.name}>
-                  <a href={s.url} target="_blank" rel="noreferrer" className="text-muted-foreground text-xs hover:text-gold-accent transition-colors">
+                  <a href={s.url} target="_blank" rel="noreferrer" className="text-muted-foreground text-xs hover:text-foreground transition-colors">
                     {s.name}
                   </a>
                 </li>

@@ -1,14 +1,35 @@
 import { useState } from "react";
+import { z } from "zod";
+import { supabase } from "@/integrations/supabase/client";
 
 const Newsletter = () => {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [error, setError] = useState("");
+
+  const emailSchema = z.string().trim().email({ message: "Enter a valid email address." }).max(255);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email) {
-      setSubmitted(true);
+    setError("");
+
+    const result = emailSchema.safeParse(email);
+    if (!result.success) {
+      setError(result.error.errors[0].message);
+      return;
     }
+
+    const { error: dbError } = await supabase
+      .from("email_signups")
+      .insert({ email: result.data, source: "newsletter" as const });
+
+    if (dbError && dbError.code !== "23505") {
+      setError("Something went wrong. Please try again.");
+      return;
+    }
+
+    setSubmitted(true);
   };
 
   return (
@@ -27,18 +48,28 @@ const Newsletter = () => {
             ✓ You're in. Welcome to the narrative.
           </div> :
 
-        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-0 max-w-lg mx-auto">
-            <input
-            type="email"
-            required
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="Your email address"
-            className="flex-1 bg-muted border border-border text-foreground placeholder:text-muted-foreground text-sm px-6 py-4 outline-none focus:border-foreground/30 transition-colors" />
+        <form onSubmit={handleSubmit} noValidate className="flex flex-col sm:flex-row gap-0 max-w-lg mx-auto">
+            <div className="flex-1">
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                  if (error) setError("");
+                }}
+                maxLength={255}
+                placeholder="Your email address"
+                className="w-full bg-muted border border-border text-foreground placeholder:text-muted-foreground text-sm px-6 py-4 outline-none focus:border-foreground/30 transition-colors"
+                aria-label="Email address for newsletter"
+              />
+              {error && (
+                <p className="text-destructive text-xs mt-2 text-left">{error}</p>
+              )}
+            </div>
 
             <button
-            type="submit"
-            className="bg-foreground text-background font-semibold text-xs tracking-[0.25em] uppercase px-8 py-4 hover:bg-foreground/90 transition-all whitespace-nowrap">
+              type="submit"
+              className="bg-foreground text-background font-semibold text-xs tracking-[0.25em] uppercase px-8 py-4 hover:bg-foreground/90 transition-all whitespace-nowrap">
               Join Now
             </button>
           </form>

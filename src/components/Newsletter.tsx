@@ -48,18 +48,28 @@ const Newsletter = () => {
             ✓ You're in. Welcome to the narrative.
           </div> :
 
-        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-0 max-w-lg mx-auto">
-            <input
-            type="email"
-            required
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="Your email address"
-            className="flex-1 bg-muted border border-border text-foreground placeholder:text-muted-foreground text-sm px-6 py-4 outline-none focus:border-foreground/30 transition-colors" />
+        <form onSubmit={handleSubmit} noValidate className="flex flex-col sm:flex-row gap-0 max-w-lg mx-auto">
+            <div className="flex-1">
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => {
+                  setEmail(e.target.value);
+                  if (error) setError("");
+                }}
+                maxLength={255}
+                placeholder="Your email address"
+                className="w-full bg-muted border border-border text-foreground placeholder:text-muted-foreground text-sm px-6 py-4 outline-none focus:border-foreground/30 transition-colors"
+                aria-label="Email address for newsletter"
+              />
+              {error && (
+                <p className="text-destructive text-xs mt-2 text-left">{error}</p>
+              )}
+            </div>
 
             <button
-            type="submit"
-            className="bg-foreground text-background font-semibold text-xs tracking-[0.25em] uppercase px-8 py-4 hover:bg-foreground/90 transition-all whitespace-nowrap">
+              type="submit"
+              className="bg-foreground text-background font-semibold text-xs tracking-[0.25em] uppercase px-8 py-4 hover:bg-foreground/90 transition-all whitespace-nowrap">
               Join Now
             </button>
           </form>

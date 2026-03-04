@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { z } from "zod";
+import { supabase } from "@/integrations/supabase/client";
 
 const emailSchema = z.string().trim().email({ message: "Enter a valid email address." }).max(255);
 
@@ -8,13 +9,22 @@ const NC002Waitlist = () => {
   const [error, setError] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
 
     const result = emailSchema.safeParse(email);
     if (!result.success) {
       setError(result.error.errors[0].message);
+      return;
+    }
+
+    const { error: dbError } = await supabase
+      .from("email_signups")
+      .insert({ email: result.data, source: "nc002_waitlist" as const });
+
+    if (dbError && dbError.code !== "23505") {
+      setError("Something went wrong. Please try again.");
       return;
     }
 

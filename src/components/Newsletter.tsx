@@ -1,14 +1,35 @@
 import { useState } from "react";
+import { z } from "zod";
+import { supabase } from "@/integrations/supabase/client";
 
 const Newsletter = () => {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [error, setError] = useState("");
+
+  const emailSchema = z.string().trim().email({ message: "Enter a valid email address." }).max(255);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email) {
-      setSubmitted(true);
+    setError("");
+
+    const result = emailSchema.safeParse(email);
+    if (!result.success) {
+      setError(result.error.errors[0].message);
+      return;
     }
+
+    const { error: dbError } = await supabase
+      .from("email_signups")
+      .insert({ email: result.data, source: "newsletter" as const });
+
+    if (dbError && dbError.code !== "23505") {
+      setError("Something went wrong. Please try again.");
+      return;
+    }
+
+    setSubmitted(true);
   };
 
   return (
